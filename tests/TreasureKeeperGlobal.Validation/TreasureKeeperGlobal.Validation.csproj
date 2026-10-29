@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../../TreasureKeeperGlobal.Core/TreasureKeeperGlobal.Core.csproj" />
+    <None Include="../../TreasureKeeperGlobal/Data/catalog.json" Link="catalog.json" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="../../docs/g10-supplement.json" Link="g10-supplement.json" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="../../docs/g10-wiki-check.json" Link="g10-wiki-check.json" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="../../docs/g10-observed.json" Link="g10-observed.json" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,28 @@
+<Project Sdk="Dalamud.NET.Sdk/15.0.0">
+  <PropertyGroup>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <LangVersion>13.0</LangVersion>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DalamudLibPath Condition="'$(DALAMUD_HOME)' == ''">$(MSBuildProjectDirectory)/../.sdk/</DalamudLibPath>
+    <AssemblySearchPaths>$(DalamudLibPath);{CandidateAssemblyFiles};{HintPathFromItem};{TargetFrameworkDirectory};{RawFileName}</AssemblySearchPaths>
+    <Version>0.1.9</Version>
+    <Authors>TreasureKeeperGlobal contributors</Authors>
+    <Description>各寶物庫獨立物品清單、分類與自動丟棄，固定保留深層地圖。</Description>
+    <PackageLicenseExpression>AGPL-3.0-or-later</PackageLicenseExpression>
+    <IsPackable>false</IsPackable>
+    <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../TreasureKeeperGlobal.Core/TreasureKeeperGlobal.Core.csproj" />
+    <EmbeddedResource Include="Data/catalog.json" />
+  </ItemGroup>
+  <Target Name="VerifyDalamudApi15" BeforeTargets="ResolveAssemblyReferences">
+    <Error Condition="!Exists('$(DalamudLibPath)/Dalamud.dll')" Text="Set DALAMUD_HOME or DalamudLibPath to an API 15 SDK directory." />
+    <GetAssemblyIdentity AssemblyFiles="$(DalamudLibPath)/Dalamud.dll">
+      <Output TaskParameter="Assemblies" ItemName="DalamudIdentity" />
+    </GetAssemblyIdentity>
+    <Error Condition="$([MSBuild]::VersionLessThan('%(DalamudIdentity.Version)', '15.0')) Or $([MSBuild]::VersionGreaterThanOrEquals('%(DalamudIdentity.Version)', '16.0'))" Text="TreasureKeeperGlobal requires Dalamud API 15." />
+  </Target>
+</Project>

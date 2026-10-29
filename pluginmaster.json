@@ -1,0 +1,31 @@
+[
+  {
+    "Author": "TreasureKeeperGlobal contributors",
+    "Name": "TreasureKeeperGlobal｜寶物庫整理助手",
+    "InternalName": "TreasureKeeperGlobal",
+    "AssemblyVersion": "0.1.9.0",
+    "Description": "按寶物庫及 G10 外場瀏覽掉落，支援分類、搜尋、一鍵勾選與手動補充。所有清單的相同物品共用全域勾選，深層傳送魔紋的地圖固定保留。\n輸入 /tkeep 開啟。自動補錄預設啟用，將庫內新取得物品加入對應清單並保留紀錄；各庫可選擇新補錄預設保留或自動丟棄，也可逐項調整；既有物品沿用全域設定。一般野外不自動歸入 G10 外場。\n啟動自動丟棄後，不論主城、野外或副本，都會處理一般背包所有已勾選物品的整疊數量，包含既有物品；勾選修改立即生效。登入或重新載入後需手動啟動。物品來源中的舊版實測項目另有標示。\n輸入 /tmap 開啟地圖工具，可把本機寶圖放入一般／十字快捷欄空格。按快捷鍵解讀並自動確認本次地圖；已有解讀中的寶圖時停止。地圖功能獨立於丟棄開關。",
+    "ApplicableVersion": "any",
+    "RepoUrl": "https://github.com/wenwen-ff14/TreasureKeeperGlobal",
+    "Tags": [
+      "treasure",
+      "inventory",
+      "discard",
+      "G10"
+    ],
+    "DalamudApiLevel": 15,
+    "LoadRequiredState": 0,
+    "LoadSync": false,
+    "CanUnloadAsync": false,
+    "LoadPriority": 0,
+    "Punchline": "自動補錄寶物庫所得、全域勾選丟棄、寶圖快捷解讀與自動確認。",
+    "AcceptsFeedback": true,
+    "DownloadLinkInstall": "https://github.com/wenwen-ff14/TreasureKeeperGlobal/releases/download/v0.1.9/TreasureKeeperGlobal-0.1.9.0-api15.zip",
+    "DownloadLinkUpdate": "https://github.com/wenwen-ff14/TreasureKeeperGlobal/releases/download/v0.1.9/TreasureKeeperGlobal-0.1.9.0-api15.zip",
+    "DownloadLinkTesting": "https://github.com/wenwen-ff14/TreasureKeeperGlobal/releases/download/v0.1.9/TreasureKeeperGlobal-0.1.9.0-api15.zip",
+    "IsHide": false,
+    "IsTestingExclusive": false,
+    "LastUpdate": 1793269605,
+    "Changelog": "國際服首次發布：API 15 / .NET 10，獨立設定、國際服寶物庫辨識；保留丟棄、補錄及寶圖解讀。尚待遊戲內驗收。"
+  }
+]

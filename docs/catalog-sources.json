@@ -1,0 +1,115 @@
+{
+  "Retrieved": "2026-10-14",
+  "TeamcraftCommit": "f43013b5f535e5b54bcb6f6f2fc4f646ea77696f",
+  "Wiki": [
+    {
+      "Page": "Cenote_Ja_Ja_Gural",
+      "Revision": "1498681",
+      "RevisionUrl": "https://ffxiv.consolegameswiki.com/mediawiki/index.php?title=Cenote_Ja_Ja_Gural&oldid=1498681",
+      "SHA256": "8E00C67476FA01ED564A4C843F88A4D381B9F10489FB6BE35B5A9FE3D6E92681"
+    },
+    {
+      "Page": "The_Aquapolis",
+      "Revision": "1439233",
+      "RevisionUrl": "https://ffxiv.consolegameswiki.com/mediawiki/index.php?title=The_Aquapolis&oldid=1439233",
+      "SHA256": "2D9C6D65E6EAB3B9E8137BA4AA03C4043119730BDA70081D3F08332869B30C78"
+    },
+    {
+      "Page": "The_Dungeons_of_Lyhe_Ghiah",
+      "Revision": "1498409",
+      "RevisionUrl": "https://ffxiv.consolegameswiki.com/mediawiki/index.php?title=The_Dungeons_of_Lyhe_Ghiah&oldid=1498409",
+      "SHA256": "ADD33EDAFD7085622582AFF0B19113E99B3C8A0C220059A8995BAB567A1D1A4F"
+    },
+    {
+      "Page": "The_Excitatron_6000",
+      "Revision": "1498662",
+      "RevisionUrl": "https://ffxiv.consolegameswiki.com/mediawiki/index.php?title=The_Excitatron_6000&oldid=1498662",
+      "SHA256": "AF436A6400E9C93ABD07FE1F788F57BDF5659DBC8DB0444A8B0D46A022F8F8D4"
+    },
+    {
+      "Page": "The_Hidden_Canals_of_Uznair",
+      "Revision": "1552458",
+      "RevisionUrl": "https://ffxiv.consolegameswiki.com/mediawiki/index.php?title=The_Hidden_Canals_of_Uznair&oldid=1552458",
+      "SHA256": "7B70A7E3271903AE9323160E9D62CB8D75E571C5CE90DBEF4E777A902F06491C"
+    },
+    {
+      "Page": "The_Lost_Canals_of_Uznair",
+      "Revision": "1335745",
+      "RevisionUrl": "https://ffxiv.consolegameswiki.com/mediawiki/index.php?title=The_Lost_Canals_of_Uznair&oldid=1335745",
+      "SHA256": "4C1852F7C0C9DD20BD8EC1D68AD6853CECDE01B6616E6C9D8D4C7A3AF5AA11F6"
+    },
+    {
+      "Page": "The_Shifting_Altars_of_Uznair",
+      "Revision": "1439427",
+      "RevisionUrl": "https://ffxiv.consolegameswiki.com/mediawiki/index.php?title=The_Shifting_Altars_of_Uznair&oldid=1439427",
+      "SHA256": "514D627FB179D281A8EC976CBCCCD7667380E4CB7B913FBA9493FD3E2A9266AB"
+    },
+    {
+      "Page": "The_Shifting_Gymnasion_Agonon",
+      "Revision": "1552473",
+      "RevisionUrl": "https://ffxiv.consolegameswiki.com/mediawiki/index.php?title=The_Shifting_Gymnasion_Agonon&oldid=1552473",
+      "SHA256": "421A818305D01FB15FE4FFC7F58D9153EB688D919764FC086AA6E2DDAE930FF5"
+    },
+    {
+      "Page": "The_Shifting_Oubliettes_of_Lyhe_Ghiah",
+      "Revision": "1550030",
+      "RevisionUrl": "https://ffxiv.consolegameswiki.com/mediawiki/index.php?title=The_Shifting_Oubliettes_of_Lyhe_Ghiah&oldid=1550030",
+      "SHA256": "CF2FB5E49A60E8B58A8C2B8465DFCE2D3CE1A89D29F9F2DE38C7BF9D62F93A05"
+    },
+    {
+      "Page": "Vault_Oneiron",
+      "Revision": "1439748",
+      "RevisionUrl": "https://ffxiv.consolegameswiki.com/mediawiki/index.php?title=Vault_Oneiron&oldid=1439748",
+      "SHA256": "A31A7C60C42496E089B1FC8F73CDA03449D600C80D2B12979AA845317DF59161"
+    },
+    {
+      "Page": "Timeworn_Gazelleskin_Map",
+      "Revision": "1443237",
+      "RevisionUrl": "https://ffxiv.consolegameswiki.com/mediawiki/index.php?title=Timeworn_Gazelleskin_Map&oldid=1443237",
+      "SHA256": "F9C390F21B39CDF0E8236B8798CA4E71C04B5ABF65C611095FB5F3C66AC17166"
+    }
+  ],
+  "IgnoredNonItemLinks": [
+    "Final Fantasy XIV Wiki:Style manual",
+    "Fashion Accessories"
+  ],
+  "Supplements": [
+    "docs/g10-supplement.json"
+  ],
+  "Historical": [
+    {
+      "Article": 4721,
+      "Url": "https://ff14house.com/post-4721/",
+      "CachePath": ".cache/g10-audit/house-4721.html",
+      "GamePatch": "4.05",
+      "ScopeId": 55002,
+      "SHA256": "65A8BC766D2185323F6354ED58BCC588E54CB5CEEDE496EEBEB3FC73DC2503A9"
+    },
+    {
+      "Article": 4744,
+      "Url": "https://ff14house.com/post-4744/",
+      "CachePath": ".cache/g10-audit/house-4744.html",
+      "GamePatch": "4.05",
+      "ScopeId": 55002,
+      "SHA256": "6D36E51C5671F5098A3795177BCD9435F6108A37E4CDB8CBD7A1B5EEB2A27754"
+    },
+    {
+      "Article": 4759,
+      "Url": "https://ff14house.com/post-4759/",
+      "CachePath": ".cache/g10-audit/house-4759.html",
+      "GamePatch": "4.05",
+      "ScopeId": 55002,
+      "SHA256": "8C9DBC50F61E23915E4BF20DC95B188538C31AA4E1DD8CFB053C6F41B2D023D0"
+    }
+  ],
+  "CommunityObservations": {
+    "SourceKey": "Community-observed-2026-10-15",
+    "Snapshot": "docs/g10-observed.json",
+    "Date": "2026-10-15",
+    "ClientVersion": "2026.09.14.0000.0000",
+    "Scope": "運河寶物庫神殿 / Territory 794",
+    "ObservedItems": 53,
+    "NewCatalogRows": 19,
+    "Evidence": "User-authorized in-vault inventory gains; not a complete server loot table."
+  }
+}

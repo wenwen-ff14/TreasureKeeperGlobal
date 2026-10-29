@@ -1,0 +1,242 @@
+{
+  "Date": "2026-10-15",
+  "Timezone": "Asia/Taipei",
+  "BaselineVersion": "0.1.5",
+  "BaselineSourceSHA256": "3CF1FE49BA510146A217558F85D382DE8FD7F7BDFD519C38765052E5B5A22EFF",
+  "UpdatedVersion": "0.1.6",
+  "Warmup": "At least 1000 iterations and one second per case; 3 measured samples; median CPU time",
+  "Before": {
+    "Runtime": "9.0.20",
+    "Architecture": "X64",
+    "Note": "Offline ImGui CPU and managed allocations only; includes NewFrame/Render, excludes software/GPU rendering, game hooks and saves. Retained bytes are after full GC, not total process RAM.",
+    "Results": [
+      {
+        "Name": "discovery_receive_consume",
+        "IterationsPerSample": 100000,
+        "Samples": 3,
+        "MicrosecondsPerOperation": 0.75292,
+        "TimingSamples": [
+          0.768938,
+          0.75292,
+          0.641988
+        ],
+        "AllocatedBytesPerOperation": 1512,
+        "Gen0Collections": [
+          24,
+          24,
+          24
+        ],
+        "RetainedBytesDeltas": [
+          24,
+          0,
+          0
+        ]
+      },
+      {
+        "Name": "repeat_catalog_merge",
+        "IterationsPerSample": 20000,
+        "Samples": 3,
+        "MicrosecondsPerOperation": 5.558285,
+        "TimingSamples": [
+          5.558285,
+          5.3552100000000005,
+          5.955855
+        ],
+        "AllocatedBytesPerOperation": 4688.170533333334,
+        "Gen0Collections": [
+          14,
+          14,
+          14
+        ],
+        "RetainedBytesDeltas": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "Name": "ui_items_142_rows_140_slots",
+        "IterationsPerSample": 2000,
+        "Samples": 3,
+        "MicrosecondsPerOperation": 669.54835,
+        "TimingSamples": [
+          669.54835,
+          709.6289,
+          636.44585
+        ],
+        "AllocatedBytesPerOperation": 35409.008,
+        "Gen0Collections": [
+          11,
+          11,
+          11
+        ],
+        "RetainedBytesDeltas": [
+          2016,
+          2016,
+          2016
+        ]
+      },
+      {
+        "Name": "ui_global_preview_140_slots",
+        "IterationsPerSample": 2000,
+        "Samples": 3,
+        "MicrosecondsPerOperation": 295.4867,
+        "TimingSamples": [
+          284.20275,
+          326.5734,
+          295.4867
+        ],
+        "AllocatedBytesPerOperation": 77641.008,
+        "Gen0Collections": [
+          24,
+          24,
+          24
+        ],
+        "RetainedBytesDeltas": [
+          -4568,
+          0,
+          -152
+        ]
+      },
+      {
+        "Name": "ui_discovery_142_records",
+        "IterationsPerSample": 2000,
+        "Samples": 3,
+        "MicrosecondsPerOperation": 343.77035,
+        "TimingSamples": [
+          343.77035,
+          385.41835,
+          341.5969
+        ],
+        "AllocatedBytesPerOperation": 24969.008,
+        "Gen0Collections": [
+          7,
+          7,
+          7
+        ],
+        "RetainedBytesDeltas": [
+          0,
+          0,
+          0
+        ]
+      }
+    ]
+  },
+  "After": {
+    "Runtime": "9.0.20",
+    "Architecture": "X64",
+    "Note": "Offline ImGui CPU and managed allocations only; includes NewFrame/Render, excludes software/GPU rendering, game hooks and saves. Retained bytes are after full GC, not total process RAM.",
+    "Results": [
+      {
+        "Name": "discovery_receive_consume",
+        "IterationsPerSample": 100000,
+        "Samples": 3,
+        "MicrosecondsPerOperation": 0.320015,
+        "TimingSamples": [
+          0.26629400000000003,
+          0.331059,
+          0.320015
+        ],
+        "AllocatedBytesPerOperation": 40,
+        "Gen0Collections": [
+          0,
+          0,
+          0
+        ],
+        "RetainedBytesDeltas": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "Name": "repeat_catalog_merge",
+        "IterationsPerSample": 20000,
+        "Samples": 3,
+        "MicrosecondsPerOperation": 0.08720499999999999,
+        "TimingSamples": [
+          0.11062999999999999,
+          0.08720499999999999,
+          0.06895499999999999
+        ],
+        "AllocatedBytesPerOperation": 0,
+        "Gen0Collections": [
+          0,
+          0,
+          0
+        ],
+        "RetainedBytesDeltas": [
+          -392,
+          0,
+          0
+        ]
+      },
+      {
+        "Name": "ui_items_142_rows_140_slots",
+        "IterationsPerSample": 2000,
+        "Samples": 3,
+        "MicrosecondsPerOperation": 512.69425,
+        "TimingSamples": [
+          548.5882,
+          493.45725,
+          512.69425
+        ],
+        "AllocatedBytesPerOperation": 1385.008,
+        "Gen0Collections": [
+          0,
+          0,
+          0
+        ],
+        "RetainedBytesDeltas": [
+          -8744,
+          2016,
+          2016
+        ]
+      },
+      {
+        "Name": "ui_global_preview_140_slots",
+        "IterationsPerSample": 2000,
+        "Samples": 3,
+        "MicrosecondsPerOperation": 232.56395,
+        "TimingSamples": [
+          218.3903,
+          252.33215,
+          232.56395
+        ],
+        "AllocatedBytesPerOperation": 1289.008,
+        "Gen0Collections": [
+          0,
+          0,
+          0
+        ],
+        "RetainedBytesDeltas": [
+          2016,
+          2016,
+          2016
+        ]
+      },
+      {
+        "Name": "ui_discovery_142_records",
+        "IterationsPerSample": 2000,
+        "Samples": 3,
+        "MicrosecondsPerOperation": 301.1466,
+        "TimingSamples": [
+          318.43605,
+          271.50825,
+          301.1466
+        ],
+        "AllocatedBytesPerOperation": 120,
+        "Gen0Collections": [
+          0,
+          0,
+          0
+        ],
+        "RetainedBytesDeltas": [
+          -4568,
+          0,
+          0
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,4189 @@
+{
+  "Updated": "2026-10-15",
+  "Note": "Known source relationships; not a server-complete loot table. Historical-only entries are explicitly identified.",
+  "ExcludedRetiredMateria": [
+    5607,
+    5608,
+    5612,
+    5617,
+    5622,
+    5623,
+    5627,
+    5628
+  ],
+  "Scopes": [
+    {
+      "Id": 17836,
+      "Name": "G10 外場寶箱",
+      "Count": 74,
+      "HistoricalOnly": [],
+      "Items": [
+        {
+          "Id": 8,
+          "Name": "火之水晶",
+          "EnglishName": "Fire Crystal",
+          "Category": "水晶",
+          "Sources": [
+            "Consolegameswiki",
+            "Huiji-G10-outdoor",
+            "Teamcraft-G10-outdoor"
+          ]
+        },
+        {
+          "Id": 9,
+          "Name": "冰之水晶",
+          "EnglishName": "Ice Crystal",
+          "Category": "水晶",
+          "Sources": [
+            "Consolegameswiki",
+            "Huiji-G10-outdoor",
+            "Teamcraft-G10-outdoor"
+          ]
+        },
+        {
+          "Id": 10,
+          "Name": "風之水晶",
+          "EnglishName": "Wind Crystal",
+          "Category": "水晶",
+          "Sources": [
+            "Consolegameswiki",
+            "Huiji-G10-outdoor",
+            "Teamcraft-G10-outdoor"
+          ]
+        },
+        {
+          "Id": 11,
+          "Name": "土之水晶",
+          "EnglishName": "Earth Crystal",
+          "Category": "水晶",
+          "Sources": [
+            "Consolegameswiki",
+            "Huiji-G10-outdoor",
+            "Teamcraft-G10-outdoor"
+          ]
+        },
+        {
+          "Id": 12,
+          "Name": "雷之水晶",
+          "EnglishName": "Lightning Crystal",
+          "Category": "水晶",
+          "Sources": [
+            "Consolegameswiki",
+            "Huiji-G10-outdoor",
+            "Teamcraft-G10-outdoor"
+          ]
+        },
+        {
+          "Id": 13,
+          "Name": "水之水晶",
+          "EnglishName": "Water Crystal",
+          "Category": "水晶",
+          "Sources": [
+            "Consolegameswiki",
+            "Huiji-G10-outdoor",
+            "Teamcraft-G10-outdoor"
+          ]
+        },
+        {
+          "Id": 14,
+          "Name": "火之晶簇",
+          "EnglishName": "Fire Cluster",
+          "Category": "水晶",
+          "Sources": [
+            "Consolegameswiki",
+            "Huiji-G10-outdoor"
+          ]
+        },
+        {
+          "Id": 15,
+          "Name": "冰之晶簇",
+          "EnglishName": "Ice Cluster",
+          "Category": "水晶",
+          "Sources": [
+            "Consolegameswiki",
+            "Huiji-G10-outdoor"
+          ]
+        },
+        {
+          "Id": 16,
+          "Name": "風之晶簇",
+          "EnglishName": "Wind Cluster",
+          "Category": "水晶",
+          "Sources": [
+            "Consolegameswiki",
+            "Huiji-G10-outdoor"
+          ]
+        },
+        {
+          "Id": 17,
+          "Name": "土之晶簇",
+          "EnglishName": "Earth Cluster",
+          "Category": "水晶",
+          "Sources": [
+            "Huiji-G10-outdoor"
+          ]
+        },
+        {
+          "Id": 18,
+          "Name": "雷之晶簇",
+          "EnglishName": "Lightning Cluster",
+          "Category": "水晶",
+          "Sources": [
+            "Consolegameswiki",
+            "Huiji-G10-outdoor"
+          ]
+        },
+        {
+          "Id": 19,
+          "Name": "水之晶簇",
+          "EnglishName": "Water Cluster",
+          "Category": "水晶",
+          "Sources": [
+            "Huiji-G10-outdoor"
+          ]
+        },
+        {
+          "Id": 5372,
+          "Name": "松木木材",
+          "EnglishName": "Pine Lumber",
+          "Category": "素材",
+          "Sources": [
+            "Huiji-G10-outdoor"
+          ]
+        },
+        {
+          "Id": 15981,
+          "Name": "秋意楓樹",
+          "EnglishName": "Autumnal Maple Tree",
+          "Category": "家具",
+          "Sources": [
+            "Consolegameswiki",
+            "Teamcraft-G10-outdoor"
+          ]
+        },
+        {
+          "Id": 15982,
+          "Name": "秋意銀杏樹",
+          "EnglishName": "Autumnal Ginkgo Tree",
+          "Category": "家具",
+          "Sources": [
+            "Consolegameswiki",
+            "Huiji-G10-outdoor",
+            "Teamcraft-G10-outdoor"
+          ]
+        },
+        {
+          "Id": 15983,
+          "Name": "秋意楓葉堆",
+          "EnglishName": "Maple Leaf Pile",
+          "Category": "家具",
+          "Sources": [
+            "Consolegameswiki",
+            "Huiji-G10-outdoor",
+            "Teamcraft-G10-outdoor"
+          ]
+        },
+        {
+          "Id": 15984,
+          "Name": "秋意銀杏葉堆",
+          "EnglishName": "Ginkgo Leaf Pile",
+          "Category": "家具",
+          "Sources": [
+            "Consolegameswiki",
+            "Huiji-G10-outdoor",
+            "Teamcraft-G10-outdoor"
+          ]
+        },
+        {
+          "Id": 17861,
+          "Name": "管弦樂琴樂譜：匯集的海風",
+          "EnglishName": "Navigator's Glory - The Theme of Limsa Lominsa Orchestrion Roll",
+          "Category": "樂譜",
+          "Sources": [
+            "Huiji-G10-outdoor"
+          ]
+        },
+        {
+          "Id": 17862,
+          "Name": "管弦樂琴樂譜：喧囂的樹叢",
+          "EnglishName": "Born of the Boughs - The Theme of Gridania Orchestrion Roll",
+          "Category": "樂譜",
+          "Sources": [
+            "Huiji-G10-outdoor"
+          ]
+        },
+        {
+          "Id": 17863,
+          "Name": "管弦樂琴樂譜：交錯的命運",
+          "EnglishName": "The Twin Faces of Fate - The Theme of Ul'dah Orchestrion Roll",
+          "Category": "樂譜",
+          "Sources": [
+            "Huiji-G10-outdoor"
+          ]
+        },
+        {
+          "Id": 17985,
+          "Name": "摩艾石像",
+          "EnglishName": "Moai Statue",
+          "Category": "家具",
+          "Sources": [
+            "Consolegameswiki",
+            "Huiji-G10-outdoor",
+            "Teamcraft-G10-outdoor"
+          ]
+        },
+        {
+          "Id": 18032,
+          "Name": "幽獄灰",
+          "EnglishName": "Stygian Ash",
+          "Category": "其他",
+          "Sources": [
+            "Consolegameswiki",
+            "Huiji-G10-outdoor",
+            "Teamcraft-G10-outdoor"
+          ]
+        },
+        {
+          "Id": 19882,
+          "Name": "名匠藥茶",
+          "EnglishName": "Competent Craftsman's Tea",
+          "Category": "消耗品",
+          "Sources": [
+            "Consolegameswiki",
+            "Huiji-G10-outdoor"
+          ]
+        },
+        {
+          "Id": 19883,
+          "Name": "巨匠藥茶",
+          "EnglishName": "Commanding Craftsman's Tea",
+          "Category": "消耗品",
+          "Sources": [
+            "Consolegameswiki",
+            "Huiji-G10-outdoor"
+          ]
+        },
+        {
+          "Id": 19884,
+          "Name": "魔匠藥茶",
+          "EnglishName": "Cunning Craftsman's Tea",
+          "Category": "消耗品",
+          "Sources": [
+            "Consolegameswiki",
+            "Huiji-G10-outdoor"
+          ]
+        },
+        {
+          "Id": 19885,
+          "Name": "強精煉藥",
+          "EnglishName": "Potent Spiritbond Potion",
+          "Category": "消耗品",
+          "Sources": [
+            "Huiji-G10-outdoor"
+          ]
+        },
+        {
+          "Id": 19886,
+          "Name": "剛力之藥湯",
+          "EnglishName": "Infusion of Strength",
+          "Category": "消耗品",
+          "Sources": [
+            "Huiji-G10-outdoor"
+          ]
+        },
+        {
+          "Id": 19887,
+          "Name": "巧力之藥湯",
+          "EnglishName": "Infusion of Dexterity",
+          "Category": "消耗品",
+          "Sources": [
+            "Huiji-G10-outdoor"
+          ]
+        },
+        {
+          "Id": 19888,
+          "Name": "耐力之藥湯",
+          "EnglishName": "Infusion of Vitality",
+          "Category": "消耗品",
+          "Sources": [
+            "Huiji-G10-outdoor"
+          ]
+        },
+        {
+          "Id": 19889,
+          "Name": "智力之藥湯",
+          "EnglishName": "Infusion of Intelligence",
+          "Category": "消耗品",
+          "Sources": [
+            "Huiji-G10-outdoor"
+          ]
+        },
+        {
+          "Id": 19890,
+          "Name": "意力之藥湯",
+          "EnglishName": "Infusion of Mind",
+          "Category": "消耗品",
+          "Sources": [
+            "Huiji-G10-outdoor"
+          ]
+        },
+        {
+          "Id": 19891,
+          "Name": "1級剛力之靈水",
+          "EnglishName": "Grade 1 Reisui of Strength",
+          "Category": "素材",
+          "Sources": [
+            "Consolegameswiki",
+            "Huiji-G10-outdoor"
+          ]
+        },
+        {
+          "Id": 19892,
+          "Name": "1級巧力之靈水",
+          "EnglishName": "Grade 1 Reisui of Dexterity",
+          "Category": "素材",
+          "Sources": [
+            "Consolegameswiki",
+            "Huiji-G10-outdoor"
+          ]
+        },
+        {
+          "Id": 19893,
+          "Name": "1級耐力之靈水",
+          "EnglishName": "Grade 1 Reisui of Vitality",
+          "Category": "素材",
+          "Sources": [
+            "Consolegameswiki",
+            "Huiji-G10-outdoor"
+          ]
+        },
+        {
+          "Id": 19894,
+          "Name": "1級智力之靈水",
+          "EnglishName": "Grade 1 Reisui of Intelligence",
+          "Category": "素材",
+          "Sources": [
+            "Consolegameswiki",
+            "Huiji-G10-outdoor"
+          ]
+        },
+        {
+          "Id": 19895,
+          "Name": "1級意力之靈水",
+          "EnglishName": "Grade 1 Reisui of Mind",
+          "Category": "素材",
+          "Sources": [
+            "Consolegameswiki",
+            "Huiji-G10-outdoor"
+          ]
+        },
+        {
+          "Id": 19901,
+          "Name": "白銅附魔墨水",
+          "EnglishName": "Enchanted Koppranickel Ink",
+          "Category": "素材",
+          "Sources": [
+            "Consolegameswiki",
+            "Huiji-G10-outdoor"
+          ]
+        },
+        {
+          "Id": 19902,
+          "Name": "翠銀附魔墨水",
+          "EnglishName": "Enchanted Durium Ink",
+          "Category": "素材",
+          "Sources": [
+            "Consolegameswiki",
+            "Huiji-G10-outdoor"
+          ]
+        },
+        {
+          "Id": 19904,
+          "Name": "植物成長劑7型",
+          "EnglishName": "Growth Formula Eta",
+          "Category": "素材",
+          "Sources": [
+            "Consolegameswiki",
+            "Huiji-G10-outdoor"
+          ]
+        },
+        {
+          "Id": 19906,
+          "Name": "甲膠",
+          "EnglishName": "Beetle Glue",
+          "Category": "素材",
+          "Sources": [
+            "Consolegameswiki",
+            "Huiji-G10-outdoor"
+          ]
+        },
+        {
+          "Id": 19919,
+          "Name": "姆德斯德角",
+          "EnglishName": "Muud Suud Horn",
+          "Category": "素材",
+          "Sources": [
+            "Consolegameswiki",
+            "Huiji-G10-outdoor"
+          ]
+        },
+        {
+          "Id": 19921,
+          "Name": "犏牛角",
+          "EnglishName": "Dzo Horn",
+          "Category": "素材",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 19925,
+          "Name": "山毛櫸木材",
+          "EnglishName": "Beech Lumber",
+          "Category": "素材",
+          "Sources": [
+            "Consolegameswiki",
+            "Huiji-G10-outdoor"
+          ]
+        },
+        {
+          "Id": 19926,
+          "Name": "落葉松木材",
+          "EnglishName": "Larch Lumber",
+          "Category": "素材",
+          "Sources": [
+            "Consolegameswiki",
+            "Huiji-G10-outdoor"
+          ]
+        },
+        {
+          "Id": 19927,
+          "Name": "柿木木材",
+          "EnglishName": "Persimmon Lumber",
+          "Category": "素材",
+          "Sources": [
+            "Consolegameswiki",
+            "Huiji-G10-outdoor"
+          ]
+        },
+        {
+          "Id": 19938,
+          "Name": "白銅塊",
+          "EnglishName": "Koppranickel Nugget",
+          "Category": "素材",
+          "Sources": [
+            "Consolegameswiki",
+            "Huiji-G10-outdoor"
+          ]
+        },
+        {
+          "Id": 19939,
+          "Name": "硬鋼塊",
+          "EnglishName": "High Steel Nugget",
+          "Category": "素材",
+          "Sources": [
+            "Consolegameswiki",
+            "Huiji-G10-outdoor"
+          ]
+        },
+        {
+          "Id": 19940,
+          "Name": "白銅錠",
+          "EnglishName": "Koppranickel Ingot",
+          "Category": "素材",
+          "Sources": [
+            "Huiji-G10-outdoor"
+          ]
+        },
+        {
+          "Id": 19941,
+          "Name": "硬鋼錠",
+          "EnglishName": "High Steel Ingot",
+          "Category": "素材",
+          "Sources": [
+            "Consolegameswiki",
+            "Huiji-G10-outdoor"
+          ]
+        },
+        {
+          "Id": 19942,
+          "Name": "翠銀塊",
+          "EnglishName": "Durium Nugget",
+          "Category": "素材",
+          "Sources": [
+            "Huiji-G10-outdoor"
+          ]
+        },
+        {
+          "Id": 19943,
+          "Name": "卸鐵錠",
+          "EnglishName": "Oroshigane Ingot",
+          "Category": "素材",
+          "Sources": [
+            "Consolegameswiki",
+            "Huiji-G10-outdoor"
+          ]
+        },
+        {
+          "Id": 19945,
+          "Name": "玉鋼錠",
+          "EnglishName": "Tama-hagane Ingot",
+          "Category": "素材",
+          "Sources": [
+            "Consolegameswiki",
+            "Huiji-G10-outdoor"
+          ]
+        },
+        {
+          "Id": 19962,
+          "Name": "鋰輝石",
+          "EnglishName": "Triphane",
+          "Category": "素材",
+          "Sources": [
+            "Consolegameswiki",
+            "Huiji-G10-outdoor"
+          ]
+        },
+        {
+          "Id": 19963,
+          "Name": "藍晶石",
+          "EnglishName": "Kyanite",
+          "Category": "素材",
+          "Sources": [
+            "Consolegameswiki",
+            "Huiji-G10-outdoor"
+          ]
+        },
+        {
+          "Id": 19964,
+          "Name": "星尖石",
+          "EnglishName": "Star Spinel",
+          "Category": "素材",
+          "Sources": [
+            "Huiji-G10-outdoor"
+          ]
+        },
+        {
+          "Id": 19974,
+          "Name": "赤麻布",
+          "EnglishName": "Bloodhempen Cloth",
+          "Category": "素材",
+          "Sources": [
+            "Huiji-G10-outdoor"
+          ]
+        },
+        {
+          "Id": 19975,
+          "Name": "赤麻線",
+          "EnglishName": "Bloodhempen Yarn",
+          "Category": "素材",
+          "Sources": [
+            "Consolegameswiki",
+            "Huiji-G10-outdoor"
+          ]
+        },
+        {
+          "Id": 19977,
+          "Name": "紅玉棉布",
+          "EnglishName": "Ruby Cotton Cloth",
+          "Category": "素材",
+          "Sources": [
+            "Huiji-G10-outdoor"
+          ]
+        },
+        {
+          "Id": 19978,
+          "Name": "紅玉棉線",
+          "EnglishName": "Ruby Cotton Yarn",
+          "Category": "素材",
+          "Sources": [
+            "Consolegameswiki",
+            "Huiji-G10-outdoor"
+          ]
+        },
+        {
+          "Id": 19980,
+          "Name": "葛布",
+          "EnglishName": "Kudzu Cloth",
+          "Category": "素材",
+          "Sources": [
+            "Huiji-G10-outdoor"
+          ]
+        },
+        {
+          "Id": 19981,
+          "Name": "葛線",
+          "EnglishName": "Kudzu Thread",
+          "Category": "素材",
+          "Sources": [
+            "Consolegameswiki",
+            "Huiji-G10-outdoor"
+          ]
+        },
+        {
+          "Id": 19984,
+          "Name": "精紡毛紗",
+          "EnglishName": "Worsted Yarn",
+          "Category": "素材",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 19993,
+          "Name": "迦迦納怪鳥革",
+          "EnglishName": "Gagana Leather",
+          "Category": "素材",
+          "Sources": [
+            "Consolegameswiki",
+            "Huiji-G10-outdoor"
+          ]
+        },
+        {
+          "Id": 19994,
+          "Name": "牛鬼革",
+          "EnglishName": "Gyuki Leather",
+          "Category": "素材",
+          "Sources": [
+            "Consolegameswiki",
+            "Huiji-G10-outdoor"
+          ]
+        },
+        {
+          "Id": 19995,
+          "Name": "猛虎革",
+          "EnglishName": "Tiger Leather",
+          "Category": "素材",
+          "Sources": [
+            "Huiji-G10-outdoor"
+          ]
+        },
+        {
+          "Id": 20008,
+          "Name": "板岩磨刀石",
+          "EnglishName": "Slate Whetstone",
+          "Category": "素材",
+          "Sources": [
+            "Consolegameswiki",
+            "Huiji-G10-outdoor"
+          ]
+        },
+        {
+          "Id": 20270,
+          "Name": "納夏薄絹",
+          "EnglishName": "Nagxian Silk",
+          "Category": "素材",
+          "Sources": [
+            "Consolegameswiki",
+            "Huiji-G10-outdoor"
+          ]
+        },
+        {
+          "Id": 20271,
+          "Name": "拉坦尼葉",
+          "EnglishName": "Ratanhia Leaves",
+          "Category": "素材",
+          "Sources": [
+            "Consolegameswiki",
+            "Huiji-G10-outdoor"
+          ]
+        },
+        {
+          "Id": 20272,
+          "Name": "道士布",
+          "EnglishName": "Taoist's Wool",
+          "Category": "素材",
+          "Sources": [
+            "Consolegameswiki",
+            "Huiji-G10-outdoor"
+          ]
+        },
+        {
+          "Id": 20273,
+          "Name": "納夏鞣革",
+          "EnglishName": "Nagxian Leather",
+          "Category": "素材",
+          "Sources": [
+            "Huiji-G10-outdoor"
+          ]
+        },
+        {
+          "Id": 20537,
+          "Name": "迷你鯰魚精",
+          "EnglishName": "Wind-up Namazu",
+          "Category": "寵物",
+          "Sources": [
+            "Huiji-G10-outdoor"
+          ]
+        },
+        {
+          "Id": 21205,
+          "Name": "拉札漢斜紋布",
+          "EnglishName": "Hannish Wool",
+          "Category": "素材",
+          "Sources": [
+            "Consolegameswiki",
+            "Huiji-G10-outdoor"
+          ]
+        },
+        {
+          "Id": 21206,
+          "Name": "薩維奈斜紋布",
+          "EnglishName": "Thavnairian Wool",
+          "Category": "素材",
+          "Sources": [
+            "Consolegameswiki",
+            "Huiji-G10-outdoor"
+          ]
+        },
+        {
+          "Id": 24804,
+          "Name": "疏水棉布",
+          "EnglishName": "Waterproof Cloth",
+          "Category": "素材",
+          "Sources": [
+            "Consolegameswiki",
+            "Teamcraft-G10-outdoor"
+          ]
+        }
+      ]
+    },
+    {
+      "Id": 55002,
+      "Name": "運河寶物庫",
+      "Count": 142,
+      "HistoricalOnly": [
+        8,
+        10,
+        11,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        19882,
+        19883,
+        19884,
+        19885,
+        19890,
+        19906,
+        19909,
+        19919,
+        19928,
+        19938,
+        19942,
+        19962,
+        19974,
+        19994,
+        20009
+      ],
+      "Items": [
+        {
+          "Id": 8,
+          "Name": "火之水晶",
+          "EnglishName": "Fire Crystal",
+          "Category": "水晶",
+          "Sources": [
+            "FF14house-4.05-4721"
+          ]
+        },
+        {
+          "Id": 10,
+          "Name": "風之水晶",
+          "EnglishName": "Wind Crystal",
+          "Category": "水晶",
+          "Sources": [
+            "FF14house-4.05-4759"
+          ]
+        },
+        {
+          "Id": 11,
+          "Name": "土之水晶",
+          "EnglishName": "Earth Crystal",
+          "Category": "水晶",
+          "Sources": [
+            "FF14house-4.05-4759"
+          ]
+        },
+        {
+          "Id": 13,
+          "Name": "水之水晶",
+          "EnglishName": "Water Crystal",
+          "Category": "水晶",
+          "Sources": [
+            "FF14house-4.05-4721"
+          ]
+        },
+        {
+          "Id": 14,
+          "Name": "火之晶簇",
+          "EnglishName": "Fire Cluster",
+          "Category": "水晶",
+          "Sources": [
+            "FF14house-4.05-4721",
+            "FF14house-4.05-4744",
+            "FF14house-4.05-4759"
+          ]
+        },
+        {
+          "Id": 15,
+          "Name": "冰之晶簇",
+          "EnglishName": "Ice Cluster",
+          "Category": "水晶",
+          "Sources": [
+            "FF14house-4.05-4721",
+            "FF14house-4.05-4744",
+            "FF14house-4.05-4759"
+          ]
+        },
+        {
+          "Id": 16,
+          "Name": "風之晶簇",
+          "EnglishName": "Wind Cluster",
+          "Category": "水晶",
+          "Sources": [
+            "FF14house-4.05-4721",
+            "FF14house-4.05-4744",
+            "FF14house-4.05-4759"
+          ]
+        },
+        {
+          "Id": 17,
+          "Name": "土之晶簇",
+          "EnglishName": "Earth Cluster",
+          "Category": "水晶",
+          "Sources": [
+            "FF14house-4.05-4721",
+            "FF14house-4.05-4759"
+          ]
+        },
+        {
+          "Id": 18,
+          "Name": "雷之晶簇",
+          "EnglishName": "Lightning Cluster",
+          "Category": "水晶",
+          "Sources": [
+            "FF14house-4.05-4721",
+            "FF14house-4.05-4744",
+            "FF14house-4.05-4759"
+          ]
+        },
+        {
+          "Id": 19,
+          "Name": "水之晶簇",
+          "EnglishName": "Water Cluster",
+          "Category": "水晶",
+          "Sources": [
+            "FF14house-4.05-4721",
+            "FF14house-4.05-4759"
+          ]
+        },
+        {
+          "Id": 5632,
+          "Name": "信力魔晶石肆型",
+          "EnglishName": "Piety Materia IV",
+          "Category": "魔晶石",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 5633,
+          "Name": "信力魔晶石伍型",
+          "EnglishName": "Piety Materia V",
+          "Category": "魔晶石",
+          "Sources": [
+            "Consolegameswiki",
+            "FF14house-4.05-4721",
+            "FF14house-4.05-4744",
+            "FF14house-4.05-4759"
+          ]
+        },
+        {
+          "Id": 5667,
+          "Name": "神眼魔晶石肆型",
+          "EnglishName": "Heavens' Eye Materia IV",
+          "Category": "魔晶石",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 5668,
+          "Name": "神眼魔晶石伍型",
+          "EnglishName": "Heavens' Eye Materia V",
+          "Category": "魔晶石",
+          "Sources": [
+            "Consolegameswiki",
+            "FF14house-4.05-4744",
+            "FF14house-4.05-4759"
+          ]
+        },
+        {
+          "Id": 5672,
+          "Name": "武略魔晶石肆型",
+          "EnglishName": "Savage Aim Materia IV",
+          "Category": "魔晶石",
+          "Sources": [
+            "Consolegameswiki",
+            "FF14house-4.05-4721"
+          ]
+        },
+        {
+          "Id": 5673,
+          "Name": "武略魔晶石伍型",
+          "EnglishName": "Savage Aim Materia V",
+          "Category": "魔晶石",
+          "Sources": [
+            "Consolegameswiki",
+            "FF14house-4.05-4744",
+            "FF14house-4.05-4759"
+          ]
+        },
+        {
+          "Id": 5677,
+          "Name": "雄略魔晶石肆型",
+          "EnglishName": "Savage Might Materia IV",
+          "Category": "魔晶石",
+          "Sources": [
+            "Consolegameswiki",
+            "FF14house-4.05-4721",
+            "FF14house-4.05-4759"
+          ]
+        },
+        {
+          "Id": 5678,
+          "Name": "雄略魔晶石伍型",
+          "EnglishName": "Savage Might Materia V",
+          "Category": "魔晶石",
+          "Sources": [
+            "Consolegameswiki",
+            "FF14house-4.05-4744"
+          ]
+        },
+        {
+          "Id": 5682,
+          "Name": "剛柔魔晶石肆型",
+          "EnglishName": "Battledance Materia IV",
+          "Category": "魔晶石",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 5683,
+          "Name": "剛柔魔晶石伍型",
+          "EnglishName": "Battledance Materia V",
+          "Category": "魔晶石",
+          "Sources": [
+            "Consolegameswiki",
+            "FF14house-4.05-4721",
+            "FF14house-4.05-4744"
+          ]
+        },
+        {
+          "Id": 5687,
+          "Name": "達識魔晶石肆型",
+          "EnglishName": "Gatherer's Guerdon Materia IV",
+          "Category": "魔晶石",
+          "Sources": [
+            "Consolegameswiki",
+            "FF14house-4.05-4759"
+          ]
+        },
+        {
+          "Id": 5688,
+          "Name": "達識魔晶石伍型",
+          "EnglishName": "Gatherer's Guerdon Materia V",
+          "Category": "魔晶石",
+          "Sources": [
+            "Consolegameswiki",
+            "FF14house-4.05-4721"
+          ]
+        },
+        {
+          "Id": 5692,
+          "Name": "博識魔晶石肆型",
+          "EnglishName": "Gatherer's Guile Materia IV",
+          "Category": "魔晶石",
+          "Sources": [
+            "Consolegameswiki",
+            "FF14house-4.05-4744"
+          ]
+        },
+        {
+          "Id": 5693,
+          "Name": "博識魔晶石伍型",
+          "EnglishName": "Gatherer's Guile Materia V",
+          "Category": "魔晶石",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 5697,
+          "Name": "器識魔晶石肆型",
+          "EnglishName": "Gatherer's Grasp Materia IV",
+          "Category": "魔晶石",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 5698,
+          "Name": "器識魔晶石伍型",
+          "EnglishName": "Gatherer's Grasp Materia V",
+          "Category": "魔晶石",
+          "Sources": [
+            "Consolegameswiki",
+            "FF14house-4.05-4721"
+          ]
+        },
+        {
+          "Id": 5702,
+          "Name": "名匠魔晶石肆型",
+          "EnglishName": "Craftsman's Competence Materia IV",
+          "Category": "魔晶石",
+          "Sources": [
+            "Consolegameswiki",
+            "FF14house-4.05-4759"
+          ]
+        },
+        {
+          "Id": 5703,
+          "Name": "名匠魔晶石伍型",
+          "EnglishName": "Craftsman's Competence Materia V",
+          "Category": "魔晶石",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 5707,
+          "Name": "魔匠魔晶石肆型",
+          "EnglishName": "Craftsman's Cunning Materia IV",
+          "Category": "魔晶石",
+          "Sources": [
+            "Consolegameswiki",
+            "FF14house-4.05-4721"
+          ]
+        },
+        {
+          "Id": 5708,
+          "Name": "魔匠魔晶石伍型",
+          "EnglishName": "Craftsman's Cunning Materia V",
+          "Category": "魔晶石",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 5712,
+          "Name": "巨匠魔晶石肆型",
+          "EnglishName": "Craftsman's Command Materia IV",
+          "Category": "魔晶石",
+          "Sources": [
+            "Consolegameswiki",
+            "FF14house-4.05-4759"
+          ]
+        },
+        {
+          "Id": 5713,
+          "Name": "巨匠魔晶石伍型",
+          "EnglishName": "Craftsman's Command Materia V",
+          "Category": "魔晶石",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 5717,
+          "Name": "戰技魔晶石肆型",
+          "EnglishName": "Quickarm Materia IV",
+          "Category": "魔晶石",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 5718,
+          "Name": "戰技魔晶石伍型",
+          "EnglishName": "Quickarm Materia V",
+          "Category": "魔晶石",
+          "Sources": [
+            "Consolegameswiki",
+            "FF14house-4.05-4721",
+            "FF14house-4.05-4744",
+            "FF14house-4.05-4759"
+          ]
+        },
+        {
+          "Id": 5722,
+          "Name": "詠唱魔晶石肆型",
+          "EnglishName": "Quicktongue Materia IV",
+          "Category": "魔晶石",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 5723,
+          "Name": "詠唱魔晶石伍型",
+          "EnglishName": "Quicktongue Materia V",
+          "Category": "魔晶石",
+          "Sources": [
+            "Consolegameswiki",
+            "FF14house-4.05-4721",
+            "FF14house-4.05-4744"
+          ]
+        },
+        {
+          "Id": 15981,
+          "Name": "秋意楓樹",
+          "EnglishName": "Autumnal Maple Tree",
+          "Category": "家具",
+          "Sources": [
+            "Teamcraft"
+          ]
+        },
+        {
+          "Id": 15983,
+          "Name": "秋意楓葉堆",
+          "EnglishName": "Maple Leaf Pile",
+          "Category": "家具",
+          "Sources": [
+            "Teamcraft"
+          ]
+        },
+        {
+          "Id": 17861,
+          "Name": "管弦樂琴樂譜：匯集的海風",
+          "EnglishName": "Navigator's Glory - The Theme of Limsa Lominsa Orchestrion Roll",
+          "Category": "樂譜",
+          "Sources": [
+            "Consolegameswiki",
+            "Huiji-55002",
+            "Teamcraft"
+          ]
+        },
+        {
+          "Id": 17862,
+          "Name": "管弦樂琴樂譜：喧囂的樹叢",
+          "EnglishName": "Born of the Boughs - The Theme of Gridania Orchestrion Roll",
+          "Category": "樂譜",
+          "Sources": [
+            "Consolegameswiki",
+            "Huiji-55002",
+            "Teamcraft"
+          ]
+        },
+        {
+          "Id": 17863,
+          "Name": "管弦樂琴樂譜：交錯的命運",
+          "EnglishName": "The Twin Faces of Fate - The Theme of Ul'dah Orchestrion Roll",
+          "Category": "樂譜",
+          "Sources": [
+            "Consolegameswiki",
+            "Huiji-55002",
+            "Teamcraft"
+          ]
+        },
+        {
+          "Id": 17978,
+          "Name": "象魔燈",
+          "EnglishName": "Matanga Lamp",
+          "Category": "家具",
+          "Sources": [
+            "Consolegameswiki",
+            "Huiji-55002",
+            "Teamcraft"
+          ]
+        },
+        {
+          "Id": 18011,
+          "Name": "信力魔晶石陸型",
+          "EnglishName": "Piety Materia VI",
+          "Category": "魔晶石",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 18018,
+          "Name": "神眼魔晶石陸型",
+          "EnglishName": "Heavens' Eye Materia VI",
+          "Category": "魔晶石",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 18019,
+          "Name": "武略魔晶石陸型",
+          "EnglishName": "Savage Aim Materia VI",
+          "Category": "魔晶石",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 18020,
+          "Name": "雄略魔晶石陸型",
+          "EnglishName": "Savage Might Materia VI",
+          "Category": "魔晶石",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 18021,
+          "Name": "剛柔魔晶石陸型",
+          "EnglishName": "Battledance Materia VI",
+          "Category": "魔晶石",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 18022,
+          "Name": "達識魔晶石陸型",
+          "EnglishName": "Gatherer's Guerdon Materia VI",
+          "Category": "魔晶石",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 18023,
+          "Name": "博識魔晶石陸型",
+          "EnglishName": "Gatherer's Guile Materia VI",
+          "Category": "魔晶石",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 18024,
+          "Name": "器識魔晶石陸型",
+          "EnglishName": "Gatherer's Grasp Materia VI",
+          "Category": "魔晶石",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 18025,
+          "Name": "名匠魔晶石陸型",
+          "EnglishName": "Craftsman's Competence Materia VI",
+          "Category": "魔晶石",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 18026,
+          "Name": "魔匠魔晶石陸型",
+          "EnglishName": "Craftsman's Cunning Materia VI",
+          "Category": "魔晶石",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 18027,
+          "Name": "巨匠魔晶石陸型",
+          "EnglishName": "Craftsman's Command Materia VI",
+          "Category": "魔晶石",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 18028,
+          "Name": "戰技魔晶石陸型",
+          "EnglishName": "Quickarm Materia VI",
+          "Category": "魔晶石",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 18029,
+          "Name": "詠唱魔晶石陸型",
+          "EnglishName": "Quicktongue Materia VI",
+          "Category": "魔晶石",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 18030,
+          "Name": "惰性晶簇",
+          "EnglishName": "Cracked Cluster",
+          "Category": "其他",
+          "Sources": [
+            "Consolegameswiki",
+            "FF14house-4.05-4721",
+            "FF14house-4.05-4744",
+            "FF14house-4.05-4759",
+            "Teamcraft"
+          ]
+        },
+        {
+          "Id": 19770,
+          "Name": "深層傳送魔紋的地圖",
+          "EnglishName": "Timeworn Thief's Map",
+          "Category": "地圖",
+          "Sources": [
+            "Consolegameswiki",
+            "Huiji-55002",
+            "Teamcraft"
+          ]
+        },
+        {
+          "Id": 19882,
+          "Name": "名匠藥茶",
+          "EnglishName": "Competent Craftsman's Tea",
+          "Category": "消耗品",
+          "Sources": [
+            "FF14house-4.05-4721",
+            "FF14house-4.05-4744"
+          ]
+        },
+        {
+          "Id": 19883,
+          "Name": "巨匠藥茶",
+          "EnglishName": "Commanding Craftsman's Tea",
+          "Category": "消耗品",
+          "Sources": [
+            "FF14house-4.05-4721",
+            "FF14house-4.05-4759"
+          ]
+        },
+        {
+          "Id": 19884,
+          "Name": "魔匠藥茶",
+          "EnglishName": "Cunning Craftsman's Tea",
+          "Category": "消耗品",
+          "Sources": [
+            "FF14house-4.05-4721",
+            "FF14house-4.05-4744",
+            "FF14house-4.05-4759"
+          ]
+        },
+        {
+          "Id": 19885,
+          "Name": "強精煉藥",
+          "EnglishName": "Potent Spiritbond Potion",
+          "Category": "消耗品",
+          "Sources": [
+            "FF14house-4.05-4759"
+          ]
+        },
+        {
+          "Id": 19890,
+          "Name": "意力之藥湯",
+          "EnglishName": "Infusion of Mind",
+          "Category": "消耗品",
+          "Sources": [
+            "FF14house-4.05-4721"
+          ]
+        },
+        {
+          "Id": 19891,
+          "Name": "1級剛力之靈水",
+          "EnglishName": "Grade 1 Reisui of Strength",
+          "Category": "素材",
+          "Sources": [
+            "Consolegameswiki",
+            "FF14house-4.05-4744",
+            "FF14house-4.05-4759"
+          ]
+        },
+        {
+          "Id": 19892,
+          "Name": "1級巧力之靈水",
+          "EnglishName": "Grade 1 Reisui of Dexterity",
+          "Category": "素材",
+          "Sources": [
+            "Consolegameswiki",
+            "FF14house-4.05-4744"
+          ]
+        },
+        {
+          "Id": 19893,
+          "Name": "1級耐力之靈水",
+          "EnglishName": "Grade 1 Reisui of Vitality",
+          "Category": "素材",
+          "Sources": [
+            "Consolegameswiki",
+            "Teamcraft"
+          ]
+        },
+        {
+          "Id": 19894,
+          "Name": "1級智力之靈水",
+          "EnglishName": "Grade 1 Reisui of Intelligence",
+          "Category": "素材",
+          "Sources": [
+            "Consolegameswiki",
+            "FF14house-4.05-4721",
+            "FF14house-4.05-4744",
+            "FF14house-4.05-4759"
+          ]
+        },
+        {
+          "Id": 19895,
+          "Name": "1級意力之靈水",
+          "EnglishName": "Grade 1 Reisui of Mind",
+          "Category": "素材",
+          "Sources": [
+            "Consolegameswiki",
+            "FF14house-4.05-4721",
+            "FF14house-4.05-4744"
+          ]
+        },
+        {
+          "Id": 19901,
+          "Name": "白銅附魔墨水",
+          "EnglishName": "Enchanted Koppranickel Ink",
+          "Category": "素材",
+          "Sources": [
+            "Consolegameswiki",
+            "FF14house-4.05-4759"
+          ]
+        },
+        {
+          "Id": 19902,
+          "Name": "翠銀附魔墨水",
+          "EnglishName": "Enchanted Durium Ink",
+          "Category": "素材",
+          "Sources": [
+            "Consolegameswiki",
+            "FF14house-4.05-4759"
+          ]
+        },
+        {
+          "Id": 19904,
+          "Name": "植物成長劑7型",
+          "EnglishName": "Growth Formula Eta",
+          "Category": "素材",
+          "Sources": [
+            "Consolegameswiki",
+            "FF14house-4.05-4721",
+            "FF14house-4.05-4744",
+            "FF14house-4.05-4759",
+            "Teamcraft"
+          ]
+        },
+        {
+          "Id": 19906,
+          "Name": "甲膠",
+          "EnglishName": "Beetle Glue",
+          "Category": "素材",
+          "Sources": [
+            "FF14house-4.05-4721"
+          ]
+        },
+        {
+          "Id": 19909,
+          "Name": "柿漆",
+          "EnglishName": "Persimmon Tannin",
+          "Category": "素材",
+          "Sources": [
+            "FF14house-4.05-4721"
+          ]
+        },
+        {
+          "Id": 19919,
+          "Name": "姆德斯德角",
+          "EnglishName": "Muud Suud Horn",
+          "Category": "素材",
+          "Sources": [
+            "FF14house-4.05-4744"
+          ]
+        },
+        {
+          "Id": 19920,
+          "Name": "瞪羚角",
+          "EnglishName": "Gazelle Horn",
+          "Category": "素材",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 19923,
+          "Name": "刺球炸彈的刺",
+          "EnglishName": "Bombfish Spine",
+          "Category": "素材",
+          "Sources": [
+            "Consolegameswiki",
+            "FF14house-4.05-4744"
+          ]
+        },
+        {
+          "Id": 19924,
+          "Name": "犀甲蟲甲殼",
+          "EnglishName": "Rhino Beetle Carapace",
+          "Category": "素材",
+          "Sources": [
+            "Consolegameswiki",
+            "FF14house-4.05-4759"
+          ]
+        },
+        {
+          "Id": 19925,
+          "Name": "山毛櫸木材",
+          "EnglishName": "Beech Lumber",
+          "Category": "素材",
+          "Sources": [
+            "Consolegameswiki",
+            "FF14house-4.05-4759"
+          ]
+        },
+        {
+          "Id": 19926,
+          "Name": "落葉松木材",
+          "EnglishName": "Larch Lumber",
+          "Category": "素材",
+          "Sources": [
+            "Consolegameswiki",
+            "FF14house-4.05-4744"
+          ]
+        },
+        {
+          "Id": 19928,
+          "Name": "櫸木木材",
+          "EnglishName": "Zelkova Lumber",
+          "Category": "素材",
+          "Sources": [
+            "FF14house-4.05-4721"
+          ]
+        },
+        {
+          "Id": 19938,
+          "Name": "白銅塊",
+          "EnglishName": "Koppranickel Nugget",
+          "Category": "素材",
+          "Sources": [
+            "FF14house-4.05-4744",
+            "FF14house-4.05-4759"
+          ]
+        },
+        {
+          "Id": 19939,
+          "Name": "硬鋼塊",
+          "EnglishName": "High Steel Nugget",
+          "Category": "素材",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 19940,
+          "Name": "白銅錠",
+          "EnglishName": "Koppranickel Ingot",
+          "Category": "素材",
+          "Sources": [
+            "Consolegameswiki",
+            "FF14house-4.05-4759"
+          ]
+        },
+        {
+          "Id": 19941,
+          "Name": "硬鋼錠",
+          "EnglishName": "High Steel Ingot",
+          "Category": "素材",
+          "Sources": [
+            "Consolegameswiki",
+            "FF14house-4.05-4721"
+          ]
+        },
+        {
+          "Id": 19942,
+          "Name": "翠銀塊",
+          "EnglishName": "Durium Nugget",
+          "Category": "素材",
+          "Sources": [
+            "FF14house-4.05-4759"
+          ]
+        },
+        {
+          "Id": 19947,
+          "Name": "鉬鋼錠",
+          "EnglishName": "Molybdenum Ingot",
+          "Category": "素材",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 19962,
+          "Name": "鋰輝石",
+          "EnglishName": "Triphane",
+          "Category": "素材",
+          "Sources": [
+            "FF14house-4.05-4721"
+          ]
+        },
+        {
+          "Id": 19963,
+          "Name": "藍晶石",
+          "EnglishName": "Kyanite",
+          "Category": "素材",
+          "Sources": [
+            "Consolegameswiki",
+            "FF14house-4.05-4744"
+          ]
+        },
+        {
+          "Id": 19966,
+          "Name": "琅玕",
+          "EnglishName": "Imperial Jade",
+          "Category": "素材",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 19974,
+          "Name": "赤麻布",
+          "EnglishName": "Bloodhempen Cloth",
+          "Category": "素材",
+          "Sources": [
+            "FF14house-4.05-4744"
+          ]
+        },
+        {
+          "Id": 19975,
+          "Name": "赤麻線",
+          "EnglishName": "Bloodhempen Yarn",
+          "Category": "素材",
+          "Sources": [
+            "Consolegameswiki",
+            "FF14house-4.05-4721",
+            "FF14house-4.05-4759"
+          ]
+        },
+        {
+          "Id": 19977,
+          "Name": "紅玉棉布",
+          "EnglishName": "Ruby Cotton Cloth",
+          "Category": "素材",
+          "Sources": [
+            "Consolegameswiki",
+            "FF14house-4.05-4721",
+            "FF14house-4.05-4759"
+          ]
+        },
+        {
+          "Id": 19978,
+          "Name": "紅玉棉線",
+          "EnglishName": "Ruby Cotton Yarn",
+          "Category": "素材",
+          "Sources": [
+            "Consolegameswiki",
+            "FF14house-4.05-4721",
+            "FF14house-4.05-4744"
+          ]
+        },
+        {
+          "Id": 19981,
+          "Name": "葛線",
+          "EnglishName": "Kudzu Thread",
+          "Category": "素材",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 19987,
+          "Name": "玉綢",
+          "EnglishName": "Twinsilk",
+          "Category": "素材",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 19994,
+          "Name": "牛鬼革",
+          "EnglishName": "Gyuki Leather",
+          "Category": "素材",
+          "Sources": [
+            "FF14house-4.05-4721",
+            "FF14house-4.05-4744",
+            "FF14house-4.05-4759"
+          ]
+        },
+        {
+          "Id": 19996,
+          "Name": "魔象革",
+          "EnglishName": "Marid Leather",
+          "Category": "素材",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 20008,
+          "Name": "板岩磨刀石",
+          "EnglishName": "Slate Whetstone",
+          "Category": "素材",
+          "Sources": [
+            "Consolegameswiki",
+            "FF14house-4.05-4721",
+            "FF14house-4.05-4744"
+          ]
+        },
+        {
+          "Id": 20009,
+          "Name": "黑電氣石",
+          "EnglishName": "Schorl",
+          "Category": "素材",
+          "Sources": [
+            "FF14house-4.05-4721",
+            "FF14house-4.05-4759"
+          ]
+        },
+        {
+          "Id": 20270,
+          "Name": "納夏薄絹",
+          "EnglishName": "Nagxian Silk",
+          "Category": "素材",
+          "Sources": [
+            "Consolegameswiki",
+            "Teamcraft"
+          ]
+        },
+        {
+          "Id": 20271,
+          "Name": "拉坦尼葉",
+          "EnglishName": "Ratanhia Leaves",
+          "Category": "素材",
+          "Sources": [
+            "Consolegameswiki",
+            "Teamcraft"
+          ]
+        },
+        {
+          "Id": 20272,
+          "Name": "道士布",
+          "EnglishName": "Taoist's Wool",
+          "Category": "素材",
+          "Sources": [
+            "Teamcraft"
+          ]
+        },
+        {
+          "Id": 20273,
+          "Name": "納夏鞣革",
+          "EnglishName": "Nagxian Leather",
+          "Category": "素材",
+          "Sources": [
+            "Consolegameswiki",
+            "Teamcraft"
+          ]
+        },
+        {
+          "Id": 20537,
+          "Name": "迷你鯰魚精",
+          "EnglishName": "Wind-up Namazu",
+          "Category": "寵物",
+          "Sources": [
+            "Consolegameswiki",
+            "Teamcraft"
+          ]
+        },
+        {
+          "Id": 21205,
+          "Name": "拉札漢斜紋布",
+          "EnglishName": "Hannish Wool",
+          "Category": "素材",
+          "Sources": [
+            "Consolegameswiki",
+            "Teamcraft"
+          ]
+        },
+        {
+          "Id": 21206,
+          "Name": "薩維奈斜紋布",
+          "EnglishName": "Thavnairian Wool",
+          "Category": "素材",
+          "Sources": [
+            "Consolegameswiki",
+            "Teamcraft"
+          ]
+        },
+        {
+          "Id": 21280,
+          "Name": "管弦樂琴樂譜：紅色黎明",
+          "EnglishName": "Crimson Sunrise Orchestrion Roll",
+          "Category": "樂譜",
+          "Sources": [
+            "Consolegameswiki",
+            "Huiji-55002"
+          ]
+        },
+        {
+          "Id": 21283,
+          "Name": "管弦樂琴樂譜：光宗耀祖",
+          "EnglishName": "A Father's Pride Orchestrion Roll",
+          "Category": "樂譜",
+          "Sources": [
+            "Huiji-55002"
+          ]
+        },
+        {
+          "Id": 22463,
+          "Name": "聖麻布",
+          "EnglishName": "Holy Linen",
+          "Category": "素材",
+          "Sources": [
+            "Consolegameswiki",
+            "Huiji-55002",
+            "Teamcraft"
+          ]
+        },
+        {
+          "Id": 22464,
+          "Name": "阿拉米格絹布",
+          "EnglishName": "Ala Mhigan Weave",
+          "Category": "素材",
+          "Sources": [
+            "Consolegameswiki",
+            "Huiji-55002"
+          ]
+        },
+        {
+          "Id": 23375,
+          "Name": "風尚布",
+          "EnglishName": "Cloth Cointe Quaint",
+          "Category": "素材",
+          "Sources": [
+            "Huiji-55002",
+            "Teamcraft"
+          ]
+        },
+        {
+          "Id": 23376,
+          "Name": "風尚鞣革",
+          "EnglishName": "Leather Cointe Quaint",
+          "Category": "素材",
+          "Sources": [
+            "Consolegameswiki",
+            "Huiji-55002"
+          ]
+        },
+        {
+          "Id": 23878,
+          "Name": "扮家家酒組合",
+          "EnglishName": "Little Chef's Playset",
+          "Category": "家具",
+          "Sources": [
+            "Consolegameswiki",
+            "Huiji-55002",
+            "Teamcraft"
+          ]
+        },
+        {
+          "Id": 23897,
+          "Name": "小鳥浴池",
+          "EnglishName": "Birdbath",
+          "Category": "家具",
+          "Sources": [
+            "Consolegameswiki",
+            "Huiji-55002",
+            "Teamcraft"
+          ]
+        },
+        {
+          "Id": 23899,
+          "Name": "庭園磚地",
+          "EnglishName": "Brick Garden Circle",
+          "Category": "家具",
+          "Sources": [
+            "Consolegameswiki",
+            "Huiji-55002"
+          ]
+        },
+        {
+          "Id": 23901,
+          "Name": "十二神吊燈",
+          "EnglishName": "Divine Chandelier",
+          "Category": "家具",
+          "Sources": [
+            "Consolegameswiki",
+            "Teamcraft"
+          ]
+        },
+        {
+          "Id": 24002,
+          "Name": "水豚幼獸",
+          "EnglishName": "Capybara Pup",
+          "Category": "寵物",
+          "Sources": [
+            "Consolegameswiki",
+            "Huiji-55002",
+            "Teamcraft"
+          ]
+        },
+        {
+          "Id": 24222,
+          "Name": "演技教材・確認",
+          "EnglishName": "Ballroom Etiquette - Scholarly Certitude",
+          "Category": "外觀／動作",
+          "Sources": [
+            "Consolegameswiki",
+            "Huiji-55002",
+            "Teamcraft"
+          ]
+        },
+        {
+          "Id": 24244,
+          "Name": "大袋鼠的粗皮",
+          "EnglishName": "Procoptodon Skin",
+          "Category": "素材",
+          "Sources": [
+            "Huiji-55002"
+          ]
+        },
+        {
+          "Id": 24245,
+          "Name": "基拉巴尼亞碳晶",
+          "EnglishName": "Gyr Abanian Carbon Rods",
+          "Category": "素材",
+          "Sources": [
+            "Huiji-55002"
+          ]
+        },
+        {
+          "Id": 24246,
+          "Name": "赤目沙鐵",
+          "EnglishName": "Tatara Iron Sand",
+          "Category": "素材",
+          "Sources": [
+            "Huiji-55002"
+          ]
+        },
+        {
+          "Id": 24247,
+          "Name": "彗星棉線",
+          "EnglishName": "Stardust Cotton Yarn",
+          "Category": "素材",
+          "Sources": [
+            "Huiji-55002"
+          ]
+        },
+        {
+          "Id": 24248,
+          "Name": "基拉巴尼亞蠟",
+          "EnglishName": "Gyr Abanian Wax",
+          "Category": "素材",
+          "Sources": [
+            "Huiji-55002"
+          ]
+        },
+        {
+          "Id": 24249,
+          "Name": "黑呂色漆",
+          "EnglishName": "High-gloss Urushi",
+          "Category": "素材",
+          "Sources": [
+            "Huiji-55002"
+          ]
+        },
+        {
+          "Id": 24250,
+          "Name": "千種鋼",
+          "EnglishName": "Chigusa Ingot",
+          "Category": "素材",
+          "Sources": [
+            "Huiji-55002"
+          ]
+        },
+        {
+          "Id": 24251,
+          "Name": "常輝鋼錠",
+          "EnglishName": "Evergleam Ingot",
+          "Category": "素材",
+          "Sources": [
+            "Huiji-55002"
+          ]
+        },
+        {
+          "Id": 24252,
+          "Name": "烏侖代硬木木材",
+          "EnglishName": "Urunday Lumber",
+          "Category": "素材",
+          "Sources": [
+            "Huiji-55002"
+          ]
+        },
+        {
+          "Id": 24253,
+          "Name": "大袋鼠革",
+          "EnglishName": "Procoptodon Leather",
+          "Category": "素材",
+          "Sources": [
+            "Huiji-55002"
+          ]
+        },
+        {
+          "Id": 24254,
+          "Name": "彗星棉布",
+          "EnglishName": "Stardust Cotton Cloth",
+          "Category": "素材",
+          "Sources": [
+            "Huiji-55002"
+          ]
+        },
+        {
+          "Id": 24256,
+          "Name": "4級剛力之靈水",
+          "EnglishName": "Grade 4 Reisui of Strength",
+          "Category": "素材",
+          "Sources": [
+            "Huiji-55002"
+          ]
+        },
+        {
+          "Id": 24257,
+          "Name": "4級巧力之靈水",
+          "EnglishName": "Grade 4 Reisui of Dexterity",
+          "Category": "素材",
+          "Sources": [
+            "Huiji-55002"
+          ]
+        },
+        {
+          "Id": 24258,
+          "Name": "4級耐力之靈水",
+          "EnglishName": "Grade 4 Reisui of Vitality",
+          "Category": "素材",
+          "Sources": [
+            "Huiji-55002"
+          ]
+        },
+        {
+          "Id": 24259,
+          "Name": "4級智力之靈水",
+          "EnglishName": "Grade 4 Reisui of Intelligence",
+          "Category": "素材",
+          "Sources": [
+            "Huiji-55002"
+          ]
+        },
+        {
+          "Id": 24260,
+          "Name": "4級意力之靈水",
+          "EnglishName": "Grade 4 Reisui of Mind",
+          "Category": "素材",
+          "Sources": [
+            "Huiji-55002"
+          ]
+        },
+        {
+          "Id": 24261,
+          "Name": "3級剛力之藥湯",
+          "EnglishName": "Grade 3 Infusion of Strength",
+          "Category": "消耗品",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 24262,
+          "Name": "3級巧力之藥湯",
+          "EnglishName": "Grade 3 Infusion of Dexterity",
+          "Category": "消耗品",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 24263,
+          "Name": "3級耐力之藥湯",
+          "EnglishName": "Grade 3 Infusion of Vitality",
+          "Category": "消耗品",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 24264,
+          "Name": "3級智力之藥湯",
+          "EnglishName": "Grade 3 Infusion of Intelligence",
+          "Category": "消耗品",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 24265,
+          "Name": "3級意力之藥湯",
+          "EnglishName": "Grade 3 Infusion of Mind",
+          "Category": "消耗品",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 24336,
+          "Name": "私語羊毛",
+          "EnglishName": "Whisperfine Fleece",
+          "Category": "素材",
+          "Sources": [
+            "Consolegameswiki",
+            "Huiji-55002",
+            "Teamcraft"
+          ]
+        },
+        {
+          "Id": 24527,
+          "Name": "玩偶組合",
+          "EnglishName": "Plush Pile",
+          "Category": "家具",
+          "Sources": [
+            "Consolegameswiki",
+            "Huiji-55002"
+          ]
+        },
+        {
+          "Id": 24804,
+          "Name": "疏水棉布",
+          "EnglishName": "Waterproof Cloth",
+          "Category": "素材",
+          "Sources": [
+            "Huiji-55002"
+          ]
+        },
+        {
+          "Id": 24903,
+          "Name": "小刺蝟",
+          "EnglishName": "Hedgehoglet",
+          "Category": "寵物",
+          "Sources": [
+            "Consolegameswiki",
+            "Huiji-55002",
+            "Teamcraft"
+          ]
+        }
+      ]
+    },
+    {
+      "Id": 55003,
+      "Name": "運河寶物庫深層",
+      "Count": 93,
+      "HistoricalOnly": [],
+      "Items": [
+        {
+          "Id": 8,
+          "Name": "火之水晶",
+          "EnglishName": "Fire Crystal",
+          "Category": "水晶",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 9,
+          "Name": "冰之水晶",
+          "EnglishName": "Ice Crystal",
+          "Category": "水晶",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 10,
+          "Name": "風之水晶",
+          "EnglishName": "Wind Crystal",
+          "Category": "水晶",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 11,
+          "Name": "土之水晶",
+          "EnglishName": "Earth Crystal",
+          "Category": "水晶",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 12,
+          "Name": "雷之水晶",
+          "EnglishName": "Lightning Crystal",
+          "Category": "水晶",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 13,
+          "Name": "水之水晶",
+          "EnglishName": "Water Crystal",
+          "Category": "水晶",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 14,
+          "Name": "火之晶簇",
+          "EnglishName": "Fire Cluster",
+          "Category": "水晶",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 15,
+          "Name": "冰之晶簇",
+          "EnglishName": "Ice Cluster",
+          "Category": "水晶",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 16,
+          "Name": "風之晶簇",
+          "EnglishName": "Wind Cluster",
+          "Category": "水晶",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 17,
+          "Name": "土之晶簇",
+          "EnglishName": "Earth Cluster",
+          "Category": "水晶",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 18,
+          "Name": "雷之晶簇",
+          "EnglishName": "Lightning Cluster",
+          "Category": "水晶",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 19,
+          "Name": "水之晶簇",
+          "EnglishName": "Water Cluster",
+          "Category": "水晶",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 5632,
+          "Name": "信力魔晶石肆型",
+          "EnglishName": "Piety Materia IV",
+          "Category": "魔晶石",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 5633,
+          "Name": "信力魔晶石伍型",
+          "EnglishName": "Piety Materia V",
+          "Category": "魔晶石",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 5667,
+          "Name": "神眼魔晶石肆型",
+          "EnglishName": "Heavens' Eye Materia IV",
+          "Category": "魔晶石",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 5668,
+          "Name": "神眼魔晶石伍型",
+          "EnglishName": "Heavens' Eye Materia V",
+          "Category": "魔晶石",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 5672,
+          "Name": "武略魔晶石肆型",
+          "EnglishName": "Savage Aim Materia IV",
+          "Category": "魔晶石",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 5673,
+          "Name": "武略魔晶石伍型",
+          "EnglishName": "Savage Aim Materia V",
+          "Category": "魔晶石",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 5677,
+          "Name": "雄略魔晶石肆型",
+          "EnglishName": "Savage Might Materia IV",
+          "Category": "魔晶石",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 5678,
+          "Name": "雄略魔晶石伍型",
+          "EnglishName": "Savage Might Materia V",
+          "Category": "魔晶石",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 5682,
+          "Name": "剛柔魔晶石肆型",
+          "EnglishName": "Battledance Materia IV",
+          "Category": "魔晶石",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 5683,
+          "Name": "剛柔魔晶石伍型",
+          "EnglishName": "Battledance Materia V",
+          "Category": "魔晶石",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 5717,
+          "Name": "戰技魔晶石肆型",
+          "EnglishName": "Quickarm Materia IV",
+          "Category": "魔晶石",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 5718,
+          "Name": "戰技魔晶石伍型",
+          "EnglishName": "Quickarm Materia V",
+          "Category": "魔晶石",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 5722,
+          "Name": "詠唱魔晶石肆型",
+          "EnglishName": "Quicktongue Materia IV",
+          "Category": "魔晶石",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 5723,
+          "Name": "詠唱魔晶石伍型",
+          "EnglishName": "Quicktongue Materia V",
+          "Category": "魔晶石",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 17861,
+          "Name": "管弦樂琴樂譜：匯集的海風",
+          "EnglishName": "Navigator's Glory - The Theme of Limsa Lominsa Orchestrion Roll",
+          "Category": "樂譜",
+          "Sources": [
+            "Consolegameswiki",
+            "Huiji-55003",
+            "Teamcraft"
+          ]
+        },
+        {
+          "Id": 17862,
+          "Name": "管弦樂琴樂譜：喧囂的樹叢",
+          "EnglishName": "Born of the Boughs - The Theme of Gridania Orchestrion Roll",
+          "Category": "樂譜",
+          "Sources": [
+            "Consolegameswiki",
+            "Huiji-55003",
+            "Teamcraft"
+          ]
+        },
+        {
+          "Id": 17863,
+          "Name": "管弦樂琴樂譜：交錯的命運",
+          "EnglishName": "The Twin Faces of Fate - The Theme of Ul'dah Orchestrion Roll",
+          "Category": "樂譜",
+          "Sources": [
+            "Consolegameswiki",
+            "Huiji-55003",
+            "Teamcraft"
+          ]
+        },
+        {
+          "Id": 17978,
+          "Name": "象魔燈",
+          "EnglishName": "Matanga Lamp",
+          "Category": "家具",
+          "Sources": [
+            "Consolegameswiki",
+            "Huiji-55003"
+          ]
+        },
+        {
+          "Id": 18011,
+          "Name": "信力魔晶石陸型",
+          "EnglishName": "Piety Materia VI",
+          "Category": "魔晶石",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 18018,
+          "Name": "神眼魔晶石陸型",
+          "EnglishName": "Heavens' Eye Materia VI",
+          "Category": "魔晶石",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 18019,
+          "Name": "武略魔晶石陸型",
+          "EnglishName": "Savage Aim Materia VI",
+          "Category": "魔晶石",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 18020,
+          "Name": "雄略魔晶石陸型",
+          "EnglishName": "Savage Might Materia VI",
+          "Category": "魔晶石",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 18021,
+          "Name": "剛柔魔晶石陸型",
+          "EnglishName": "Battledance Materia VI",
+          "Category": "魔晶石",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 18028,
+          "Name": "戰技魔晶石陸型",
+          "EnglishName": "Quickarm Materia VI",
+          "Category": "魔晶石",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 18029,
+          "Name": "詠唱魔晶石陸型",
+          "EnglishName": "Quicktongue Materia VI",
+          "Category": "魔晶石",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 18030,
+          "Name": "惰性晶簇",
+          "EnglishName": "Cracked Cluster",
+          "Category": "其他",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 19891,
+          "Name": "1級剛力之靈水",
+          "EnglishName": "Grade 1 Reisui of Strength",
+          "Category": "素材",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 19892,
+          "Name": "1級巧力之靈水",
+          "EnglishName": "Grade 1 Reisui of Dexterity",
+          "Category": "素材",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 19893,
+          "Name": "1級耐力之靈水",
+          "EnglishName": "Grade 1 Reisui of Vitality",
+          "Category": "素材",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 19894,
+          "Name": "1級智力之靈水",
+          "EnglishName": "Grade 1 Reisui of Intelligence",
+          "Category": "素材",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 19895,
+          "Name": "1級意力之靈水",
+          "EnglishName": "Grade 1 Reisui of Mind",
+          "Category": "素材",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 19901,
+          "Name": "白銅附魔墨水",
+          "EnglishName": "Enchanted Koppranickel Ink",
+          "Category": "素材",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 19919,
+          "Name": "姆德斯德角",
+          "EnglishName": "Muud Suud Horn",
+          "Category": "素材",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 19940,
+          "Name": "白銅錠",
+          "EnglishName": "Koppranickel Ingot",
+          "Category": "素材",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 20270,
+          "Name": "納夏薄絹",
+          "EnglishName": "Nagxian Silk",
+          "Category": "素材",
+          "Sources": [
+            "Consolegameswiki",
+            "Teamcraft"
+          ]
+        },
+        {
+          "Id": 20271,
+          "Name": "拉坦尼葉",
+          "EnglishName": "Ratanhia Leaves",
+          "Category": "素材",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 20273,
+          "Name": "納夏鞣革",
+          "EnglishName": "Nagxian Leather",
+          "Category": "素材",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 20537,
+          "Name": "迷你鯰魚精",
+          "EnglishName": "Wind-up Namazu",
+          "Category": "寵物",
+          "Sources": [
+            "Teamcraft"
+          ]
+        },
+        {
+          "Id": 20756,
+          "Name": "茄子騎士花瓶",
+          "EnglishName": "Eggplant Knight Flower Vase",
+          "Category": "家具",
+          "Sources": [
+            "Huiji-55003"
+          ]
+        },
+        {
+          "Id": 20757,
+          "Name": "蒜頭明星花瓶",
+          "EnglishName": "Garlic Jester Flower Vase",
+          "Category": "家具",
+          "Sources": [
+            "Huiji-55003"
+          ]
+        },
+        {
+          "Id": 20758,
+          "Name": "曼德拉王后花瓶",
+          "EnglishName": "Mandragora Queen Flower Vase",
+          "Category": "家具",
+          "Sources": [
+            "Huiji-55003"
+          ]
+        },
+        {
+          "Id": 20759,
+          "Name": "洋蔥王子花瓶",
+          "EnglishName": "Onion Prince Flower Vase",
+          "Category": "家具",
+          "Sources": [
+            "Huiji-55003"
+          ]
+        },
+        {
+          "Id": 20760,
+          "Name": "番茄國王花瓶",
+          "EnglishName": "Tomato King Flower Vase",
+          "Category": "家具",
+          "Sources": [
+            "Huiji-55003"
+          ]
+        },
+        {
+          "Id": 21060,
+          "Name": "象魔人偶",
+          "EnglishName": "Wind-up Matanga",
+          "Category": "寵物",
+          "Sources": [
+            "Consolegameswiki",
+            "Huiji-55003",
+            "Teamcraft"
+          ]
+        },
+        {
+          "Id": 21205,
+          "Name": "拉札漢斜紋布",
+          "EnglishName": "Hannish Wool",
+          "Category": "素材",
+          "Sources": [
+            "Consolegameswiki",
+            "Teamcraft"
+          ]
+        },
+        {
+          "Id": 21206,
+          "Name": "薩維奈斜紋布",
+          "EnglishName": "Thavnairian Wool",
+          "Category": "素材",
+          "Sources": [
+            "Consolegameswiki",
+            "Teamcraft"
+          ]
+        },
+        {
+          "Id": 21280,
+          "Name": "管弦樂琴樂譜：紅色黎明",
+          "EnglishName": "Crimson Sunrise Orchestrion Roll",
+          "Category": "樂譜",
+          "Sources": [
+            "Consolegameswiki",
+            "Huiji-55003",
+            "Teamcraft"
+          ]
+        },
+        {
+          "Id": 21283,
+          "Name": "管弦樂琴樂譜：光宗耀祖",
+          "EnglishName": "A Father's Pride Orchestrion Roll",
+          "Category": "樂譜",
+          "Sources": [
+            "Consolegameswiki",
+            "Huiji-55003",
+            "Teamcraft"
+          ]
+        },
+        {
+          "Id": 21922,
+          "Name": "金鯰",
+          "EnglishName": "The Gold Whisker",
+          "Category": "寵物",
+          "Sources": [
+            "Consolegameswiki",
+            "Huiji-55003"
+          ]
+        },
+        {
+          "Id": 22463,
+          "Name": "聖麻布",
+          "EnglishName": "Holy Linen",
+          "Category": "素材",
+          "Sources": [
+            "Consolegameswiki",
+            "Huiji-55003",
+            "Teamcraft"
+          ]
+        },
+        {
+          "Id": 22464,
+          "Name": "阿拉米格絹布",
+          "EnglishName": "Ala Mhigan Weave",
+          "Category": "素材",
+          "Sources": [
+            "Consolegameswiki",
+            "Huiji-55003",
+            "Teamcraft"
+          ]
+        },
+        {
+          "Id": 22474,
+          "Name": "管弦樂琴樂譜：紅色夜闌",
+          "EnglishName": "Crimson Sunset Orchestrion Roll",
+          "Category": "樂譜",
+          "Sources": [
+            "Consolegameswiki",
+            "Huiji-55003",
+            "Teamcraft"
+          ]
+        },
+        {
+          "Id": 22476,
+          "Name": "管弦樂琴樂譜：母以子貴",
+          "EnglishName": "A Mother's Pride Orchestrion Roll",
+          "Category": "樂譜",
+          "Sources": [
+            "Consolegameswiki",
+            "Huiji-55003",
+            "Teamcraft"
+          ]
+        },
+        {
+          "Id": 23375,
+          "Name": "風尚布",
+          "EnglishName": "Cloth Cointe Quaint",
+          "Category": "素材",
+          "Sources": [
+            "Huiji-55003",
+            "Teamcraft"
+          ]
+        },
+        {
+          "Id": 23376,
+          "Name": "風尚鞣革",
+          "EnglishName": "Leather Cointe Quaint",
+          "Category": "素材",
+          "Sources": [
+            "Huiji-55003"
+          ]
+        },
+        {
+          "Id": 23878,
+          "Name": "扮家家酒組合",
+          "EnglishName": "Little Chef's Playset",
+          "Category": "家具",
+          "Sources": [
+            "Consolegameswiki",
+            "Huiji-55003"
+          ]
+        },
+        {
+          "Id": 23897,
+          "Name": "小鳥浴池",
+          "EnglishName": "Birdbath",
+          "Category": "家具",
+          "Sources": [
+            "Huiji-55003"
+          ]
+        },
+        {
+          "Id": 23899,
+          "Name": "庭園磚地",
+          "EnglishName": "Brick Garden Circle",
+          "Category": "家具",
+          "Sources": [
+            "Huiji-55003"
+          ]
+        },
+        {
+          "Id": 23901,
+          "Name": "十二神吊燈",
+          "EnglishName": "Divine Chandelier",
+          "Category": "家具",
+          "Sources": [
+            "Huiji-55003"
+          ]
+        },
+        {
+          "Id": 24002,
+          "Name": "水豚幼獸",
+          "EnglishName": "Capybara Pup",
+          "Category": "寵物",
+          "Sources": [
+            "Consolegameswiki",
+            "Huiji-55003",
+            "Teamcraft"
+          ]
+        },
+        {
+          "Id": 24222,
+          "Name": "演技教材・確認",
+          "EnglishName": "Ballroom Etiquette - Scholarly Certitude",
+          "Category": "外觀／動作",
+          "Sources": [
+            "Huiji-55003",
+            "Teamcraft"
+          ]
+        },
+        {
+          "Id": 24244,
+          "Name": "大袋鼠的粗皮",
+          "EnglishName": "Procoptodon Skin",
+          "Category": "素材",
+          "Sources": [
+            "Huiji-55003"
+          ]
+        },
+        {
+          "Id": 24245,
+          "Name": "基拉巴尼亞碳晶",
+          "EnglishName": "Gyr Abanian Carbon Rods",
+          "Category": "素材",
+          "Sources": [
+            "Huiji-55003"
+          ]
+        },
+        {
+          "Id": 24246,
+          "Name": "赤目沙鐵",
+          "EnglishName": "Tatara Iron Sand",
+          "Category": "素材",
+          "Sources": [
+            "Huiji-55003"
+          ]
+        },
+        {
+          "Id": 24247,
+          "Name": "彗星棉線",
+          "EnglishName": "Stardust Cotton Yarn",
+          "Category": "素材",
+          "Sources": [
+            "Huiji-55003"
+          ]
+        },
+        {
+          "Id": 24248,
+          "Name": "基拉巴尼亞蠟",
+          "EnglishName": "Gyr Abanian Wax",
+          "Category": "素材",
+          "Sources": [
+            "Huiji-55003"
+          ]
+        },
+        {
+          "Id": 24249,
+          "Name": "黑呂色漆",
+          "EnglishName": "High-gloss Urushi",
+          "Category": "素材",
+          "Sources": [
+            "Huiji-55003"
+          ]
+        },
+        {
+          "Id": 24250,
+          "Name": "千種鋼",
+          "EnglishName": "Chigusa Ingot",
+          "Category": "素材",
+          "Sources": [
+            "Huiji-55003"
+          ]
+        },
+        {
+          "Id": 24251,
+          "Name": "常輝鋼錠",
+          "EnglishName": "Evergleam Ingot",
+          "Category": "素材",
+          "Sources": [
+            "Huiji-55003"
+          ]
+        },
+        {
+          "Id": 24252,
+          "Name": "烏侖代硬木木材",
+          "EnglishName": "Urunday Lumber",
+          "Category": "素材",
+          "Sources": [
+            "Huiji-55003"
+          ]
+        },
+        {
+          "Id": 24253,
+          "Name": "大袋鼠革",
+          "EnglishName": "Procoptodon Leather",
+          "Category": "素材",
+          "Sources": [
+            "Huiji-55003"
+          ]
+        },
+        {
+          "Id": 24254,
+          "Name": "彗星棉布",
+          "EnglishName": "Stardust Cotton Cloth",
+          "Category": "素材",
+          "Sources": [
+            "Huiji-55003"
+          ]
+        },
+        {
+          "Id": 24256,
+          "Name": "4級剛力之靈水",
+          "EnglishName": "Grade 4 Reisui of Strength",
+          "Category": "素材",
+          "Sources": [
+            "Huiji-55003"
+          ]
+        },
+        {
+          "Id": 24257,
+          "Name": "4級巧力之靈水",
+          "EnglishName": "Grade 4 Reisui of Dexterity",
+          "Category": "素材",
+          "Sources": [
+            "Huiji-55003"
+          ]
+        },
+        {
+          "Id": 24258,
+          "Name": "4級耐力之靈水",
+          "EnglishName": "Grade 4 Reisui of Vitality",
+          "Category": "素材",
+          "Sources": [
+            "Huiji-55003"
+          ]
+        },
+        {
+          "Id": 24259,
+          "Name": "4級智力之靈水",
+          "EnglishName": "Grade 4 Reisui of Intelligence",
+          "Category": "素材",
+          "Sources": [
+            "Huiji-55003"
+          ]
+        },
+        {
+          "Id": 24260,
+          "Name": "4級意力之靈水",
+          "EnglishName": "Grade 4 Reisui of Mind",
+          "Category": "素材",
+          "Sources": [
+            "Huiji-55003"
+          ]
+        },
+        {
+          "Id": 24336,
+          "Name": "私語羊毛",
+          "EnglishName": "Whisperfine Fleece",
+          "Category": "素材",
+          "Sources": [
+            "Consolegameswiki",
+            "Huiji-55003"
+          ]
+        },
+        {
+          "Id": 24527,
+          "Name": "玩偶組合",
+          "EnglishName": "Plush Pile",
+          "Category": "家具",
+          "Sources": [
+            "Huiji-55003"
+          ]
+        },
+        {
+          "Id": 24804,
+          "Name": "疏水棉布",
+          "EnglishName": "Waterproof Cloth",
+          "Category": "素材",
+          "Sources": [
+            "Consolegameswiki",
+            "Huiji-55003"
+          ]
+        },
+        {
+          "Id": 24903,
+          "Name": "小刺蝟",
+          "EnglishName": "Hedgehoglet",
+          "Category": "寵物",
+          "Sources": [
+            "Consolegameswiki",
+            "Huiji-55003",
+            "Teamcraft"
+          ]
+        }
+      ]
+    },
+    {
+      "Id": 55004,
+      "Name": "運河寶物庫神殿",
+      "Count": 117,
+      "HistoricalOnly": [],
+      "Items": [
+        {
+          "Id": 8,
+          "Name": "火之水晶",
+          "EnglishName": "Fire Crystal",
+          "Category": "水晶",
+          "Sources": [
+            "Community-observed-2026-10-15",
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 9,
+          "Name": "冰之水晶",
+          "EnglishName": "Ice Crystal",
+          "Category": "水晶",
+          "Sources": [
+            "Community-observed-2026-10-15",
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 10,
+          "Name": "風之水晶",
+          "EnglishName": "Wind Crystal",
+          "Category": "水晶",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 11,
+          "Name": "土之水晶",
+          "EnglishName": "Earth Crystal",
+          "Category": "水晶",
+          "Sources": [
+            "Community-observed-2026-10-15",
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 12,
+          "Name": "雷之水晶",
+          "EnglishName": "Lightning Crystal",
+          "Category": "水晶",
+          "Sources": [
+            "Community-observed-2026-10-15",
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 13,
+          "Name": "水之水晶",
+          "EnglishName": "Water Crystal",
+          "Category": "水晶",
+          "Sources": [
+            "Community-observed-2026-10-15",
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 14,
+          "Name": "火之晶簇",
+          "EnglishName": "Fire Cluster",
+          "Category": "水晶",
+          "Sources": [
+            "Community-observed-2026-10-15",
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 15,
+          "Name": "冰之晶簇",
+          "EnglishName": "Ice Cluster",
+          "Category": "水晶",
+          "Sources": [
+            "Community-observed-2026-10-15",
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 16,
+          "Name": "風之晶簇",
+          "EnglishName": "Wind Cluster",
+          "Category": "水晶",
+          "Sources": [
+            "Community-observed-2026-10-15",
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 17,
+          "Name": "土之晶簇",
+          "EnglishName": "Earth Cluster",
+          "Category": "水晶",
+          "Sources": [
+            "Community-observed-2026-10-15",
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 18,
+          "Name": "雷之晶簇",
+          "EnglishName": "Lightning Cluster",
+          "Category": "水晶",
+          "Sources": [
+            "Community-observed-2026-10-15",
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 19,
+          "Name": "水之晶簇",
+          "EnglishName": "Water Cluster",
+          "Category": "水晶",
+          "Sources": [
+            "Community-observed-2026-10-15",
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 5632,
+          "Name": "信力魔晶石肆型",
+          "EnglishName": "Piety Materia IV",
+          "Category": "魔晶石",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 5633,
+          "Name": "信力魔晶石伍型",
+          "EnglishName": "Piety Materia V",
+          "Category": "魔晶石",
+          "Sources": [
+            "Community-observed-2026-10-15",
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 5667,
+          "Name": "神眼魔晶石肆型",
+          "EnglishName": "Heavens' Eye Materia IV",
+          "Category": "魔晶石",
+          "Sources": [
+            "Community-observed-2026-10-15",
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 5668,
+          "Name": "神眼魔晶石伍型",
+          "EnglishName": "Heavens' Eye Materia V",
+          "Category": "魔晶石",
+          "Sources": [
+            "Community-observed-2026-10-15",
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 5672,
+          "Name": "武略魔晶石肆型",
+          "EnglishName": "Savage Aim Materia IV",
+          "Category": "魔晶石",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 5673,
+          "Name": "武略魔晶石伍型",
+          "EnglishName": "Savage Aim Materia V",
+          "Category": "魔晶石",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 5677,
+          "Name": "雄略魔晶石肆型",
+          "EnglishName": "Savage Might Materia IV",
+          "Category": "魔晶石",
+          "Sources": [
+            "Community-observed-2026-10-15",
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 5678,
+          "Name": "雄略魔晶石伍型",
+          "EnglishName": "Savage Might Materia V",
+          "Category": "魔晶石",
+          "Sources": [
+            "Community-observed-2026-10-15",
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 5682,
+          "Name": "剛柔魔晶石肆型",
+          "EnglishName": "Battledance Materia IV",
+          "Category": "魔晶石",
+          "Sources": [
+            "Community-observed-2026-10-15",
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 5683,
+          "Name": "剛柔魔晶石伍型",
+          "EnglishName": "Battledance Materia V",
+          "Category": "魔晶石",
+          "Sources": [
+            "Community-observed-2026-10-15",
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 5687,
+          "Name": "達識魔晶石肆型",
+          "EnglishName": "Gatherer's Guerdon Materia IV",
+          "Category": "魔晶石",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 5693,
+          "Name": "博識魔晶石伍型",
+          "EnglishName": "Gatherer's Guile Materia V",
+          "Category": "魔晶石",
+          "Sources": [
+            "Community-observed-2026-10-15"
+          ]
+        },
+        {
+          "Id": 5697,
+          "Name": "器識魔晶石肆型",
+          "EnglishName": "Gatherer's Grasp Materia IV",
+          "Category": "魔晶石",
+          "Sources": [
+            "Community-observed-2026-10-15"
+          ]
+        },
+        {
+          "Id": 5698,
+          "Name": "器識魔晶石伍型",
+          "EnglishName": "Gatherer's Grasp Materia V",
+          "Category": "魔晶石",
+          "Sources": [
+            "Community-observed-2026-10-15"
+          ]
+        },
+        {
+          "Id": 5702,
+          "Name": "名匠魔晶石肆型",
+          "EnglishName": "Craftsman's Competence Materia IV",
+          "Category": "魔晶石",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 5708,
+          "Name": "魔匠魔晶石伍型",
+          "EnglishName": "Craftsman's Cunning Materia V",
+          "Category": "魔晶石",
+          "Sources": [
+            "Community-observed-2026-10-15",
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 5712,
+          "Name": "巨匠魔晶石肆型",
+          "EnglishName": "Craftsman's Command Materia IV",
+          "Category": "魔晶石",
+          "Sources": [
+            "Community-observed-2026-10-15"
+          ]
+        },
+        {
+          "Id": 5717,
+          "Name": "戰技魔晶石肆型",
+          "EnglishName": "Quickarm Materia IV",
+          "Category": "魔晶石",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 5718,
+          "Name": "戰技魔晶石伍型",
+          "EnglishName": "Quickarm Materia V",
+          "Category": "魔晶石",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 5722,
+          "Name": "詠唱魔晶石肆型",
+          "EnglishName": "Quicktongue Materia IV",
+          "Category": "魔晶石",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 5723,
+          "Name": "詠唱魔晶石伍型",
+          "EnglishName": "Quicktongue Materia V",
+          "Category": "魔晶石",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 17861,
+          "Name": "管弦樂琴樂譜：匯集的海風",
+          "EnglishName": "Navigator's Glory - The Theme of Limsa Lominsa Orchestrion Roll",
+          "Category": "樂譜",
+          "Sources": [
+            "Huiji-55004"
+          ]
+        },
+        {
+          "Id": 17862,
+          "Name": "管弦樂琴樂譜：喧囂的樹叢",
+          "EnglishName": "Born of the Boughs - The Theme of Gridania Orchestrion Roll",
+          "Category": "樂譜",
+          "Sources": [
+            "Huiji-55004"
+          ]
+        },
+        {
+          "Id": 17863,
+          "Name": "管弦樂琴樂譜：交錯的命運",
+          "EnglishName": "The Twin Faces of Fate - The Theme of Ul'dah Orchestrion Roll",
+          "Category": "樂譜",
+          "Sources": [
+            "Huiji-55004"
+          ]
+        },
+        {
+          "Id": 17978,
+          "Name": "象魔燈",
+          "EnglishName": "Matanga Lamp",
+          "Category": "家具",
+          "Sources": [
+            "Huiji-55004"
+          ]
+        },
+        {
+          "Id": 18011,
+          "Name": "信力魔晶石陸型",
+          "EnglishName": "Piety Materia VI",
+          "Category": "魔晶石",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 18018,
+          "Name": "神眼魔晶石陸型",
+          "EnglishName": "Heavens' Eye Materia VI",
+          "Category": "魔晶石",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 18019,
+          "Name": "武略魔晶石陸型",
+          "EnglishName": "Savage Aim Materia VI",
+          "Category": "魔晶石",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 18020,
+          "Name": "雄略魔晶石陸型",
+          "EnglishName": "Savage Might Materia VI",
+          "Category": "魔晶石",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 18021,
+          "Name": "剛柔魔晶石陸型",
+          "EnglishName": "Battledance Materia VI",
+          "Category": "魔晶石",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 18028,
+          "Name": "戰技魔晶石陸型",
+          "EnglishName": "Quickarm Materia VI",
+          "Category": "魔晶石",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 18029,
+          "Name": "詠唱魔晶石陸型",
+          "EnglishName": "Quicktongue Materia VI",
+          "Category": "魔晶石",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 18030,
+          "Name": "惰性晶簇",
+          "EnglishName": "Cracked Cluster",
+          "Category": "其他",
+          "Sources": [
+            "Community-observed-2026-10-15",
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 19770,
+          "Name": "深層傳送魔紋的地圖",
+          "EnglishName": "Timeworn Thief's Map",
+          "Category": "地圖",
+          "Sources": [
+            "Community-observed-2026-10-15",
+            "Consolegameswiki",
+            "Huiji-55004",
+            "Teamcraft"
+          ]
+        },
+        {
+          "Id": 19882,
+          "Name": "名匠藥茶",
+          "EnglishName": "Competent Craftsman's Tea",
+          "Category": "消耗品",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 19891,
+          "Name": "1級剛力之靈水",
+          "EnglishName": "Grade 1 Reisui of Strength",
+          "Category": "素材",
+          "Sources": [
+            "Community-observed-2026-10-15",
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 19892,
+          "Name": "1級巧力之靈水",
+          "EnglishName": "Grade 1 Reisui of Dexterity",
+          "Category": "素材",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 19893,
+          "Name": "1級耐力之靈水",
+          "EnglishName": "Grade 1 Reisui of Vitality",
+          "Category": "素材",
+          "Sources": [
+            "Community-observed-2026-10-15",
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 19894,
+          "Name": "1級智力之靈水",
+          "EnglishName": "Grade 1 Reisui of Intelligence",
+          "Category": "素材",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 19895,
+          "Name": "1級意力之靈水",
+          "EnglishName": "Grade 1 Reisui of Mind",
+          "Category": "素材",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 19901,
+          "Name": "白銅附魔墨水",
+          "EnglishName": "Enchanted Koppranickel Ink",
+          "Category": "素材",
+          "Sources": [
+            "Community-observed-2026-10-15"
+          ]
+        },
+        {
+          "Id": 19903,
+          "Name": "鈀金附魔墨水",
+          "EnglishName": "Enchanted Palladium Ink",
+          "Category": "素材",
+          "Sources": [
+            "Community-observed-2026-10-15"
+          ]
+        },
+        {
+          "Id": 19906,
+          "Name": "甲膠",
+          "EnglishName": "Beetle Glue",
+          "Category": "素材",
+          "Sources": [
+            "Community-observed-2026-10-15"
+          ]
+        },
+        {
+          "Id": 19920,
+          "Name": "瞪羚角",
+          "EnglishName": "Gazelle Horn",
+          "Category": "素材",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 19924,
+          "Name": "犀甲蟲甲殼",
+          "EnglishName": "Rhino Beetle Carapace",
+          "Category": "素材",
+          "Sources": [
+            "Community-observed-2026-10-15",
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 19926,
+          "Name": "落葉松木材",
+          "EnglishName": "Larch Lumber",
+          "Category": "素材",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 19928,
+          "Name": "櫸木木材",
+          "EnglishName": "Zelkova Lumber",
+          "Category": "素材",
+          "Sources": [
+            "Community-observed-2026-10-15"
+          ]
+        },
+        {
+          "Id": 19938,
+          "Name": "白銅塊",
+          "EnglishName": "Koppranickel Nugget",
+          "Category": "素材",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 19940,
+          "Name": "白銅錠",
+          "EnglishName": "Koppranickel Ingot",
+          "Category": "素材",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 19942,
+          "Name": "翠銀塊",
+          "EnglishName": "Durium Nugget",
+          "Category": "素材",
+          "Sources": [
+            "Community-observed-2026-10-15"
+          ]
+        },
+        {
+          "Id": 19943,
+          "Name": "卸鐵錠",
+          "EnglishName": "Oroshigane Ingot",
+          "Category": "素材",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 19946,
+          "Name": "鈀金塊",
+          "EnglishName": "Palladium Nugget",
+          "Category": "素材",
+          "Sources": [
+            "Community-observed-2026-10-15"
+          ]
+        },
+        {
+          "Id": 19963,
+          "Name": "藍晶石",
+          "EnglishName": "Kyanite",
+          "Category": "素材",
+          "Sources": [
+            "Community-observed-2026-10-15"
+          ]
+        },
+        {
+          "Id": 19964,
+          "Name": "星尖石",
+          "EnglishName": "Star Spinel",
+          "Category": "素材",
+          "Sources": [
+            "Community-observed-2026-10-15",
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 19967,
+          "Name": "薔薇輝石",
+          "EnglishName": "Rhodonite",
+          "Category": "素材",
+          "Sources": [
+            "Community-observed-2026-10-15"
+          ]
+        },
+        {
+          "Id": 19974,
+          "Name": "赤麻布",
+          "EnglishName": "Bloodhempen Cloth",
+          "Category": "素材",
+          "Sources": [
+            "Community-observed-2026-10-15"
+          ]
+        },
+        {
+          "Id": 19977,
+          "Name": "紅玉棉布",
+          "EnglishName": "Ruby Cotton Cloth",
+          "Category": "素材",
+          "Sources": [
+            "Community-observed-2026-10-15"
+          ]
+        },
+        {
+          "Id": 19980,
+          "Name": "葛布",
+          "EnglishName": "Kudzu Cloth",
+          "Category": "素材",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 19981,
+          "Name": "葛線",
+          "EnglishName": "Kudzu Thread",
+          "Category": "素材",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 19984,
+          "Name": "精紡毛紗",
+          "EnglishName": "Worsted Yarn",
+          "Category": "素材",
+          "Sources": [
+            "Community-observed-2026-10-15",
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 19993,
+          "Name": "迦迦納怪鳥革",
+          "EnglishName": "Gagana Leather",
+          "Category": "素材",
+          "Sources": [
+            "Community-observed-2026-10-15"
+          ]
+        },
+        {
+          "Id": 19994,
+          "Name": "牛鬼革",
+          "EnglishName": "Gyuki Leather",
+          "Category": "素材",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 19995,
+          "Name": "猛虎革",
+          "EnglishName": "Tiger Leather",
+          "Category": "素材",
+          "Sources": [
+            "Community-observed-2026-10-15"
+          ]
+        },
+        {
+          "Id": 19996,
+          "Name": "魔象革",
+          "EnglishName": "Marid Leather",
+          "Category": "素材",
+          "Sources": [
+            "Community-observed-2026-10-15"
+          ]
+        },
+        {
+          "Id": 19997,
+          "Name": "瞪羚革",
+          "EnglishName": "Gazelle Leather",
+          "Category": "素材",
+          "Sources": [
+            "Community-observed-2026-10-15"
+          ]
+        },
+        {
+          "Id": 20008,
+          "Name": "板岩磨刀石",
+          "EnglishName": "Slate Whetstone",
+          "Category": "素材",
+          "Sources": [
+            "Consolegameswiki"
+          ]
+        },
+        {
+          "Id": 20756,
+          "Name": "茄子騎士花瓶",
+          "EnglishName": "Eggplant Knight Flower Vase",
+          "Category": "家具",
+          "Sources": [
+            "Consolegameswiki",
+            "Huiji-55004",
+            "Teamcraft"
+          ]
+        },
+        {
+          "Id": 20757,
+          "Name": "蒜頭明星花瓶",
+          "EnglishName": "Garlic Jester Flower Vase",
+          "Category": "家具",
+          "Sources": [
+            "Consolegameswiki",
+            "Huiji-55004",
+            "Teamcraft"
+          ]
+        },
+        {
+          "Id": 20758,
+          "Name": "曼德拉王后花瓶",
+          "EnglishName": "Mandragora Queen Flower Vase",
+          "Category": "家具",
+          "Sources": [
+            "Consolegameswiki",
+            "Huiji-55004",
+            "Teamcraft"
+          ]
+        },
+        {
+          "Id": 20759,
+          "Name": "洋蔥王子花瓶",
+          "EnglishName": "Onion Prince Flower Vase",
+          "Category": "家具",
+          "Sources": [
+            "Consolegameswiki",
+            "Huiji-55004",
+            "Teamcraft"
+          ]
+        },
+        {
+          "Id": 20760,
+          "Name": "番茄國王花瓶",
+          "EnglishName": "Tomato King Flower Vase",
+          "Category": "家具",
+          "Sources": [
+            "Consolegameswiki",
+            "Huiji-55004",
+            "Teamcraft"
+          ]
+        },
+        {
+          "Id": 21280,
+          "Name": "管弦樂琴樂譜：紅色黎明",
+          "EnglishName": "Crimson Sunrise Orchestrion Roll",
+          "Category": "樂譜",
+          "Sources": [
+            "Huiji-55004"
+          ]
+        },
+        {
+          "Id": 21283,
+          "Name": "管弦樂琴樂譜：光宗耀祖",
+          "EnglishName": "A Father's Pride Orchestrion Roll",
+          "Category": "樂譜",
+          "Sources": [
+            "Huiji-55004"
+          ]
+        },
+        {
+          "Id": 21922,
+          "Name": "金鯰",
+          "EnglishName": "The Gold Whisker",
+          "Category": "寵物",
+          "Sources": [
+            "Teamcraft"
+          ]
+        },
+        {
+          "Id": 22463,
+          "Name": "聖麻布",
+          "EnglishName": "Holy Linen",
+          "Category": "素材",
+          "Sources": [
+            "Consolegameswiki",
+            "Huiji-55004"
+          ]
+        },
+        {
+          "Id": 22464,
+          "Name": "阿拉米格絹布",
+          "EnglishName": "Ala Mhigan Weave",
+          "Category": "素材",
+          "Sources": [
+            "Community-observed-2026-10-15",
+            "Consolegameswiki",
+            "Huiji-55004"
+          ]
+        },
+        {
+          "Id": 23375,
+          "Name": "風尚布",
+          "EnglishName": "Cloth Cointe Quaint",
+          "Category": "素材",
+          "Sources": [
+            "Community-observed-2026-10-15",
+            "Huiji-55004"
+          ]
+        },
+        {
+          "Id": 23376,
+          "Name": "風尚鞣革",
+          "EnglishName": "Leather Cointe Quaint",
+          "Category": "素材",
+          "Sources": [
+            "Community-observed-2026-10-15",
+            "Consolegameswiki",
+            "Huiji-55004"
+          ]
+        },
+        {
+          "Id": 23878,
+          "Name": "扮家家酒組合",
+          "EnglishName": "Little Chef's Playset",
+          "Category": "家具",
+          "Sources": [
+            "Consolegameswiki",
+            "Huiji-55004",
+            "Teamcraft"
+          ]
+        },
+        {
+          "Id": 23897,
+          "Name": "小鳥浴池",
+          "EnglishName": "Birdbath",
+          "Category": "家具",
+          "Sources": [
+            "Huiji-55004",
+            "Teamcraft"
+          ]
+        },
+        {
+          "Id": 23899,
+          "Name": "庭園磚地",
+          "EnglishName": "Brick Garden Circle",
+          "Category": "家具",
+          "Sources": [
+            "Consolegameswiki",
+            "Huiji-55004"
+          ]
+        },
+        {
+          "Id": 23901,
+          "Name": "十二神吊燈",
+          "EnglishName": "Divine Chandelier",
+          "Category": "家具",
+          "Sources": [
+            "Consolegameswiki",
+            "Huiji-55004",
+            "Teamcraft"
+          ]
+        },
+        {
+          "Id": 24002,
+          "Name": "水豚幼獸",
+          "EnglishName": "Capybara Pup",
+          "Category": "寵物",
+          "Sources": [
+            "Consolegameswiki",
+            "Huiji-55004",
+            "Teamcraft"
+          ]
+        },
+        {
+          "Id": 24222,
+          "Name": "演技教材・確認",
+          "EnglishName": "Ballroom Etiquette - Scholarly Certitude",
+          "Category": "外觀／動作",
+          "Sources": [
+            "Community-observed-2026-10-15",
+            "Consolegameswiki",
+            "Huiji-55004",
+            "Teamcraft"
+          ]
+        },
+        {
+          "Id": 24244,
+          "Name": "大袋鼠的粗皮",
+          "EnglishName": "Procoptodon Skin",
+          "Category": "素材",
+          "Sources": [
+            "Huiji-55004"
+          ]
+        },
+        {
+          "Id": 24245,
+          "Name": "基拉巴尼亞碳晶",
+          "EnglishName": "Gyr Abanian Carbon Rods",
+          "Category": "素材",
+          "Sources": [
+            "Consolegameswiki",
+            "Huiji-55004"
+          ]
+        },
+        {
+          "Id": 24246,
+          "Name": "赤目沙鐵",
+          "EnglishName": "Tatara Iron Sand",
+          "Category": "素材",
+          "Sources": [
+            "Huiji-55004"
+          ]
+        },
+        {
+          "Id": 24247,
+          "Name": "彗星棉線",
+          "EnglishName": "Stardust Cotton Yarn",
+          "Category": "素材",
+          "Sources": [
+            "Huiji-55004"
+          ]
+        },
+        {
+          "Id": 24248,
+          "Name": "基拉巴尼亞蠟",
+          "EnglishName": "Gyr Abanian Wax",
+          "Category": "素材",
+          "Sources": [
+            "Huiji-55004"
+          ]
+        },
+        {
+          "Id": 24249,
+          "Name": "黑呂色漆",
+          "EnglishName": "High-gloss Urushi",
+          "Category": "素材",
+          "Sources": [
+            "Consolegameswiki",
+            "Huiji-55004"
+          ]
+        },
+        {
+          "Id": 24250,
+          "Name": "千種鋼",
+          "EnglishName": "Chigusa Ingot",
+          "Category": "素材",
+          "Sources": [
+            "Huiji-55004"
+          ]
+        },
+        {
+          "Id": 24251,
+          "Name": "常輝鋼錠",
+          "EnglishName": "Evergleam Ingot",
+          "Category": "素材",
+          "Sources": [
+            "Community-observed-2026-10-15",
+            "Huiji-55004"
+          ]
+        },
+        {
+          "Id": 24252,
+          "Name": "烏侖代硬木木材",
+          "EnglishName": "Urunday Lumber",
+          "Category": "素材",
+          "Sources": [
+            "Huiji-55004"
+          ]
+        },
+        {
+          "Id": 24253,
+          "Name": "大袋鼠革",
+          "EnglishName": "Procoptodon Leather",
+          "Category": "素材",
+          "Sources": [
+            "Community-observed-2026-10-15",
+            "Huiji-55004"
+          ]
+        },
+        {
+          "Id": 24254,
+          "Name": "彗星棉布",
+          "EnglishName": "Stardust Cotton Cloth",
+          "Category": "素材",
+          "Sources": [
+            "Huiji-55004"
+          ]
+        },
+        {
+          "Id": 24256,
+          "Name": "4級剛力之靈水",
+          "EnglishName": "Grade 4 Reisui of Strength",
+          "Category": "素材",
+          "Sources": [
+            "Consolegameswiki",
+            "Huiji-55004"
+          ]
+        },
+        {
+          "Id": 24257,
+          "Name": "4級巧力之靈水",
+          "EnglishName": "Grade 4 Reisui of Dexterity",
+          "Category": "素材",
+          "Sources": [
+            "Consolegameswiki",
+            "Huiji-55004"
+          ]
+        },
+        {
+          "Id": 24258,
+          "Name": "4級耐力之靈水",
+          "EnglishName": "Grade 4 Reisui of Vitality",
+          "Category": "素材",
+          "Sources": [
+            "Consolegameswiki",
+            "Huiji-55004"
+          ]
+        },
+        {
+          "Id": 24259,
+          "Name": "4級智力之靈水",
+          "EnglishName": "Grade 4 Reisui of Intelligence",
+          "Category": "素材",
+          "Sources": [
+            "Consolegameswiki",
+            "Huiji-55004"
+          ]
+        },
+        {
+          "Id": 24260,
+          "Name": "4級意力之靈水",
+          "EnglishName": "Grade 4 Reisui of Mind",
+          "Category": "素材",
+          "Sources": [
+            "Consolegameswiki",
+            "Huiji-55004"
+          ]
+        },
+        {
+          "Id": 24263,
+          "Name": "3級耐力之藥湯",
+          "EnglishName": "Grade 3 Infusion of Vitality",
+          "Category": "消耗品",
+          "Sources": [
+            "Community-observed-2026-10-15"
+          ]
+        },
+        {
+          "Id": 24336,
+          "Name": "私語羊毛",
+          "EnglishName": "Whisperfine Fleece",
+          "Category": "素材",
+          "Sources": [
+            "Community-observed-2026-10-15",
+            "Consolegameswiki",
+            "Huiji-55004",
+            "Teamcraft"
+          ]
+        },
+        {
+          "Id": 24527,
+          "Name": "玩偶組合",
+          "EnglishName": "Plush Pile",
+          "Category": "家具",
+          "Sources": [
+            "Huiji-55004"
+          ]
+        },
+        {
+          "Id": 24804,
+          "Name": "疏水棉布",
+          "EnglishName": "Waterproof Cloth",
+          "Category": "素材",
+          "Sources": [
+            "Community-observed-2026-10-15",
+            "Consolegameswiki",
+            "Huiji-55004"
+          ]
+        },
+        {
+          "Id": 24903,
+          "Name": "小刺蝟",
+          "EnglishName": "Hedgehoglet",
+          "Category": "寵物",
+          "Sources": [
+            "Consolegameswiki",
+            "Huiji-55004",
+            "Teamcraft"
+          ]
+        }
+      ]
+    }
+  ]
+}

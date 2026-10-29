@@ -1,0 +1,5 @@
+<Project>
+  <Target Name="TreasureKeeperGlobalManifest" AfterTargets="Build">
+    <DalamudPackager ProjectDir="$(ProjectDir)" OutputPath="$(OutputPath)" AssemblyName="$(AssemblyName)" MakeZip="false" />
+  </Target>
+</Project>

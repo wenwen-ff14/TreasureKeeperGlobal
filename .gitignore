@@ -1,0 +1,16 @@
+**/bin/
+**/obj/
+.sdk/
+.cache/
+.tools/
+artifacts/
+dist/
+.vs/
+
+.dotnet/
+.sdk/
+.tools/
+
+.inspect/
+sdk.zip
+dotnet-install.ps1

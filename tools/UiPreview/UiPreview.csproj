@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <PlatformTarget>x64</PlatformTarget>
+    <DalamudLibPath Condition="'$(DalamudLibPath)' == ''">$(MSBuildThisFileDirectory)../../.sdk/</DalamudLibPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../../TreasureKeeperGlobal.Core/TreasureKeeperGlobal.Core.csproj" />
+    <Compile Include="../../TreasureKeeperGlobal/Ui/*.cs" Link="Ui/%(Filename)%(Extension)" />
+    <Reference Include="Dalamud.Bindings.ImGui"><HintPath>$(DalamudLibPath)/Dalamud.Bindings.ImGui.dll</HintPath></Reference>
+    <Reference Include="HexaGen.Runtime"><HintPath>$(DalamudLibPath)/HexaGen.Runtime.dll</HintPath></Reference>
+    <None Include="$(DalamudLibPath)/cimgui.dll" Link="cimgui.dll" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="../../TreasureKeeperGlobal/Data/catalog.json" Link="catalog.json" CopyToOutputDirectory="PreserveNewest" />
+    <None Update="map-items.json" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,2390 @@
+{
+  "Note": "Pinned source coverage only; not a complete server loot table. Each page is compared to its own vault.",
+  "TeamcraftCommit": "f43013b5f535e5b54bcb6f6f2fc4f646ea77696f",
+  "Scopes": [
+    {
+      "VaultId": 17836,
+      "Name": "G10 外場寶箱",
+      "Page": "Timeworn_Gazelleskin_Map",
+      "Revision": "1443237",
+      "RevisionUrl": "https://ffxiv.consolegameswiki.com/mediawiki/index.php?title=Timeworn_Gazelleskin_Map&oldid=1443237",
+      "SHA256": "F9C390F21B39CDF0E8236B8798CA4E71C04B5ABF65C611095FB5F3C66AC17166",
+      "CatalogCount": 74,
+      "WikiCount": 53,
+      "IncludedCount": 53,
+      "MissingIds": [],
+      "Items": [
+        {
+          "Id": 15982,
+          "EnglishName": "Autumnal Ginkgo Tree",
+          "Name": "秋意銀杏樹",
+          "Group": "Rare",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 15981,
+          "EnglishName": "Autumnal Maple Tree",
+          "Name": "秋意楓樹",
+          "Group": "Rare",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 15984,
+          "EnglishName": "Ginkgo Leaf Pile",
+          "Name": "秋意銀杏葉堆",
+          "Group": "Rare",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 21205,
+          "EnglishName": "Hannish Wool",
+          "Name": "拉札漢斜紋布",
+          "Group": "Rare",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 15983,
+          "EnglishName": "Maple Leaf Pile",
+          "Name": "秋意楓葉堆",
+          "Group": "Rare",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 17985,
+          "EnglishName": "Moai Statue",
+          "Name": "摩艾石像",
+          "Group": "Rare",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 20270,
+          "EnglishName": "Nagxian Silk",
+          "Name": "納夏薄絹",
+          "Group": "Rare",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 20271,
+          "EnglishName": "Ratanhia Leaves",
+          "Name": "拉坦尼葉",
+          "Group": "Rare",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 18032,
+          "EnglishName": "Stygian Ash",
+          "Name": "幽獄灰",
+          "Group": "Rare",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 20272,
+          "EnglishName": "Taoist's Wool",
+          "Name": "道士布",
+          "Group": "Rare",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 21206,
+          "EnglishName": "Thavnairian Wool",
+          "Name": "薩維奈斜紋布",
+          "Group": "Rare",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 24804,
+          "EnglishName": "Waterproof Cloth",
+          "Name": "疏水棉布",
+          "Group": "Rare",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 8,
+          "EnglishName": "Fire Crystal",
+          "Name": "火之水晶",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 9,
+          "EnglishName": "Ice Crystal",
+          "Name": "冰之水晶",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 10,
+          "EnglishName": "Wind Crystal",
+          "Name": "風之水晶",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 11,
+          "EnglishName": "Earth Crystal",
+          "Name": "土之水晶",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 12,
+          "EnglishName": "Lightning Crystal",
+          "Name": "雷之水晶",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 13,
+          "EnglishName": "Water Crystal",
+          "Name": "水之水晶",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 14,
+          "EnglishName": "Fire Cluster",
+          "Name": "火之晶簇",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 15,
+          "EnglishName": "Ice Cluster",
+          "Name": "冰之晶簇",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 16,
+          "EnglishName": "Wind Cluster",
+          "Name": "風之晶簇",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 18,
+          "EnglishName": "Lightning Cluster",
+          "Name": "雷之晶簇",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 19925,
+          "EnglishName": "Beech Lumber",
+          "Name": "山毛櫸木材",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 19906,
+          "EnglishName": "Beetle Glue",
+          "Name": "甲膠",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 19975,
+          "EnglishName": "Bloodhempen Yarn",
+          "Name": "赤麻線",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 19883,
+          "EnglishName": "Commanding Craftsman's Tea",
+          "Name": "巨匠藥茶",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 19882,
+          "EnglishName": "Competent Craftsman's Tea",
+          "Name": "名匠藥茶",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 19884,
+          "EnglishName": "Cunning Craftsman's Tea",
+          "Name": "魔匠藥茶",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 19921,
+          "EnglishName": "Dzo Horn",
+          "Name": "犏牛角",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 19902,
+          "EnglishName": "Enchanted Durium Ink",
+          "Name": "翠銀附魔墨水",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 19901,
+          "EnglishName": "Enchanted Koppranickel Ink",
+          "Name": "白銅附魔墨水",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 19993,
+          "EnglishName": "Gagana Leather",
+          "Name": "迦迦納怪鳥革",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 19892,
+          "EnglishName": "Grade 1 Reisui of Dexterity",
+          "Name": "1級巧力之靈水",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 19894,
+          "EnglishName": "Grade 1 Reisui of Intelligence",
+          "Name": "1級智力之靈水",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 19895,
+          "EnglishName": "Grade 1 Reisui of Mind",
+          "Name": "1級意力之靈水",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 19891,
+          "EnglishName": "Grade 1 Reisui of Strength",
+          "Name": "1級剛力之靈水",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 19893,
+          "EnglishName": "Grade 1 Reisui of Vitality",
+          "Name": "1級耐力之靈水",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 19904,
+          "EnglishName": "Growth Formula Eta",
+          "Name": "植物成長劑7型",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 19994,
+          "EnglishName": "Gyuki Leather",
+          "Name": "牛鬼革",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 19941,
+          "EnglishName": "High Steel Ingot",
+          "Name": "硬鋼錠",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 19939,
+          "EnglishName": "High Steel Nugget",
+          "Name": "硬鋼塊",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 19938,
+          "EnglishName": "Koppranickel Nugget",
+          "Name": "白銅塊",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 19981,
+          "EnglishName": "Kudzu Thread",
+          "Name": "葛線",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 19963,
+          "EnglishName": "Kyanite",
+          "Name": "藍晶石",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 19926,
+          "EnglishName": "Larch Lumber",
+          "Name": "落葉松木材",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 19919,
+          "EnglishName": "Muud Suud Horn",
+          "Name": "姆德斯德角",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 19943,
+          "EnglishName": "Oroshigane Ingot",
+          "Name": "卸鐵錠",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 19927,
+          "EnglishName": "Persimmon Lumber",
+          "Name": "柿木木材",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 19978,
+          "EnglishName": "Ruby Cotton Yarn",
+          "Name": "紅玉棉線",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 20008,
+          "EnglishName": "Slate Whetstone",
+          "Name": "板岩磨刀石",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 19945,
+          "EnglishName": "Tama-hagane Ingot",
+          "Name": "玉鋼錠",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 19962,
+          "EnglishName": "Triphane",
+          "Name": "鋰輝石",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 19984,
+          "EnglishName": "Worsted Yarn",
+          "Name": "精紡毛紗",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        }
+      ]
+    },
+    {
+      "VaultId": 55002,
+      "Name": "運河寶物庫",
+      "Page": "The_Lost_Canals_of_Uznair",
+      "Revision": "1335745",
+      "RevisionUrl": "https://ffxiv.consolegameswiki.com/mediawiki/index.php?title=The_Lost_Canals_of_Uznair&oldid=1335745",
+      "SHA256": "4C1852F7C0C9DD20BD8EC1D68AD6853CECDE01B6616E6C9D8D4C7A3AF5AA11F6",
+      "CatalogCount": 142,
+      "WikiCount": 95,
+      "IncludedCount": 95,
+      "MissingIds": [],
+      "Items": [
+        {
+          "Id": 22464,
+          "EnglishName": "Ala Mhigan Weave",
+          "Name": "阿拉米格絹布",
+          "Group": "Rare",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 24222,
+          "EnglishName": "Ballroom Etiquette - Scholarly Certitude",
+          "Name": "演技教材・確認",
+          "Group": "Rare",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 23897,
+          "EnglishName": "Birdbath",
+          "Name": "小鳥浴池",
+          "Group": "Rare",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 17862,
+          "EnglishName": "Born of the Boughs - The Theme of Gridania Orchestrion Roll",
+          "Name": "管弦樂琴樂譜：喧囂的樹叢",
+          "Group": "Rare",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 23899,
+          "EnglishName": "Brick Garden Circle",
+          "Name": "庭園磚地",
+          "Group": "Rare",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 24002,
+          "EnglishName": "Capybara Pup",
+          "Name": "水豚幼獸",
+          "Group": "Rare",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 21280,
+          "EnglishName": "Crimson Sunrise Orchestrion Roll",
+          "Name": "管弦樂琴樂譜：紅色黎明",
+          "Group": "Rare",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 23901,
+          "EnglishName": "Divine Chandelier",
+          "Name": "十二神吊燈",
+          "Group": "Rare",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 21205,
+          "EnglishName": "Hannish Wool",
+          "Name": "拉札漢斜紋布",
+          "Group": "Rare",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 24903,
+          "EnglishName": "Hedgehoglet",
+          "Name": "小刺蝟",
+          "Group": "Rare",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 22463,
+          "EnglishName": "Holy Linen",
+          "Name": "聖麻布",
+          "Group": "Rare",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 23376,
+          "EnglishName": "Leather Cointe Quaint",
+          "Name": "風尚鞣革",
+          "Group": "Rare",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 23878,
+          "EnglishName": "Little Chef's Playset",
+          "Name": "扮家家酒組合",
+          "Group": "Rare",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 17978,
+          "EnglishName": "Matanga Lamp",
+          "Name": "象魔燈",
+          "Group": "Rare",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 20273,
+          "EnglishName": "Nagxian Leather",
+          "Name": "納夏鞣革",
+          "Group": "Rare",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 20270,
+          "EnglishName": "Nagxian Silk",
+          "Name": "納夏薄絹",
+          "Group": "Rare",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 17861,
+          "EnglishName": "Navigator's Glory - The Theme of Limsa Lominsa Orchestrion Roll",
+          "Name": "管弦樂琴樂譜：匯集的海風",
+          "Group": "Rare",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 24527,
+          "EnglishName": "Plush Pile",
+          "Name": "玩偶組合",
+          "Group": "Rare",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 20271,
+          "EnglishName": "Ratanhia Leaves",
+          "Name": "拉坦尼葉",
+          "Group": "Rare",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 21206,
+          "EnglishName": "Thavnairian Wool",
+          "Name": "薩維奈斜紋布",
+          "Group": "Rare",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 19770,
+          "EnglishName": "Timeworn Thief's Map",
+          "Name": "深層傳送魔紋的地圖",
+          "Group": "Rare",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 17863,
+          "EnglishName": "The Twin Faces of Fate - The Theme of Ul'dah Orchestrion Roll",
+          "Name": "管弦樂琴樂譜：交錯的命運",
+          "Group": "Rare",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 24336,
+          "EnglishName": "Whisperfine Fleece",
+          "Name": "私語羊毛",
+          "Group": "Rare",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 20537,
+          "EnglishName": "Wind-up Namazu",
+          "Name": "迷你鯰魚精",
+          "Group": "Rare",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 5682,
+          "EnglishName": "Battledance Materia IV",
+          "Name": "剛柔魔晶石肆型",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 5683,
+          "EnglishName": "Battledance Materia V",
+          "Name": "剛柔魔晶石伍型",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 18021,
+          "EnglishName": "Battledance Materia VI",
+          "Name": "剛柔魔晶石陸型",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 19925,
+          "EnglishName": "Beech Lumber",
+          "Name": "山毛櫸木材",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 19975,
+          "EnglishName": "Bloodhempen Yarn",
+          "Name": "赤麻線",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 19923,
+          "EnglishName": "Bombfish Spine",
+          "Name": "刺球炸彈的刺",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 18030,
+          "EnglishName": "Cracked Cluster",
+          "Name": "惰性晶簇",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 5712,
+          "EnglishName": "Craftsman's Command Materia IV",
+          "Name": "巨匠魔晶石肆型",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 5713,
+          "EnglishName": "Craftsman's Command Materia V",
+          "Name": "巨匠魔晶石伍型",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 18027,
+          "EnglishName": "Craftsman's Command Materia VI",
+          "Name": "巨匠魔晶石陸型",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 5702,
+          "EnglishName": "Craftsman's Competence Materia IV",
+          "Name": "名匠魔晶石肆型",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 5703,
+          "EnglishName": "Craftsman's Competence Materia V",
+          "Name": "名匠魔晶石伍型",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 18025,
+          "EnglishName": "Craftsman's Competence Materia VI",
+          "Name": "名匠魔晶石陸型",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 5707,
+          "EnglishName": "Craftsman's Cunning Materia IV",
+          "Name": "魔匠魔晶石肆型",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 5708,
+          "EnglishName": "Craftsman's Cunning Materia V",
+          "Name": "魔匠魔晶石伍型",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 18026,
+          "EnglishName": "Craftsman's Cunning Materia VI",
+          "Name": "魔匠魔晶石陸型",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 19902,
+          "EnglishName": "Enchanted Durium Ink",
+          "Name": "翠銀附魔墨水",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 19901,
+          "EnglishName": "Enchanted Koppranickel Ink",
+          "Name": "白銅附魔墨水",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 5697,
+          "EnglishName": "Gatherer's Grasp Materia IV",
+          "Name": "器識魔晶石肆型",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 5698,
+          "EnglishName": "Gatherer's Grasp Materia V",
+          "Name": "器識魔晶石伍型",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 18024,
+          "EnglishName": "Gatherer's Grasp Materia VI",
+          "Name": "器識魔晶石陸型",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 5687,
+          "EnglishName": "Gatherer's Guerdon Materia IV",
+          "Name": "達識魔晶石肆型",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 5688,
+          "EnglishName": "Gatherer's Guerdon Materia V",
+          "Name": "達識魔晶石伍型",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 18022,
+          "EnglishName": "Gatherer's Guerdon Materia VI",
+          "Name": "達識魔晶石陸型",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 5692,
+          "EnglishName": "Gatherer's Guile Materia IV",
+          "Name": "博識魔晶石肆型",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 5693,
+          "EnglishName": "Gatherer's Guile Materia V",
+          "Name": "博識魔晶石伍型",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 18023,
+          "EnglishName": "Gatherer's Guile Materia VI",
+          "Name": "博識魔晶石陸型",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 19920,
+          "EnglishName": "Gazelle Horn",
+          "Name": "瞪羚角",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 19892,
+          "EnglishName": "Grade 1 Reisui of Dexterity",
+          "Name": "1級巧力之靈水",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 19894,
+          "EnglishName": "Grade 1 Reisui of Intelligence",
+          "Name": "1級智力之靈水",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 19895,
+          "EnglishName": "Grade 1 Reisui of Mind",
+          "Name": "1級意力之靈水",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 19891,
+          "EnglishName": "Grade 1 Reisui of Strength",
+          "Name": "1級剛力之靈水",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 19893,
+          "EnglishName": "Grade 1 Reisui of Vitality",
+          "Name": "1級耐力之靈水",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 24262,
+          "EnglishName": "Grade 3 Infusion of Dexterity",
+          "Name": "3級巧力之藥湯",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 24264,
+          "EnglishName": "Grade 3 Infusion of Intelligence",
+          "Name": "3級智力之藥湯",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 24265,
+          "EnglishName": "Grade 3 Infusion of Mind",
+          "Name": "3級意力之藥湯",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 24261,
+          "EnglishName": "Grade 3 Infusion of Strength",
+          "Name": "3級剛力之藥湯",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 24263,
+          "EnglishName": "Grade 3 Infusion of Vitality",
+          "Name": "3級耐力之藥湯",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 19904,
+          "EnglishName": "Growth Formula Eta",
+          "Name": "植物成長劑7型",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 5667,
+          "EnglishName": "Heavens' Eye Materia IV",
+          "Name": "神眼魔晶石肆型",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 5668,
+          "EnglishName": "Heavens' Eye Materia V",
+          "Name": "神眼魔晶石伍型",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 18018,
+          "EnglishName": "Heavens' Eye Materia VI",
+          "Name": "神眼魔晶石陸型",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 19941,
+          "EnglishName": "High Steel Ingot",
+          "Name": "硬鋼錠",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 19939,
+          "EnglishName": "High Steel Nugget",
+          "Name": "硬鋼塊",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 19966,
+          "EnglishName": "Imperial Jade",
+          "Name": "琅玕",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 19940,
+          "EnglishName": "Koppranickel Ingot",
+          "Name": "白銅錠",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 19981,
+          "EnglishName": "Kudzu Thread",
+          "Name": "葛線",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 19963,
+          "EnglishName": "Kyanite",
+          "Name": "藍晶石",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 19926,
+          "EnglishName": "Larch Lumber",
+          "Name": "落葉松木材",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 19996,
+          "EnglishName": "Marid Leather",
+          "Name": "魔象革",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 19947,
+          "EnglishName": "Molybdenum Ingot",
+          "Name": "鉬鋼錠",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 5632,
+          "EnglishName": "Piety Materia IV",
+          "Name": "信力魔晶石肆型",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 5633,
+          "EnglishName": "Piety Materia V",
+          "Name": "信力魔晶石伍型",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 18011,
+          "EnglishName": "Piety Materia VI",
+          "Name": "信力魔晶石陸型",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 5717,
+          "EnglishName": "Quickarm Materia IV",
+          "Name": "戰技魔晶石肆型",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 5718,
+          "EnglishName": "Quickarm Materia V",
+          "Name": "戰技魔晶石伍型",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 18028,
+          "EnglishName": "Quickarm Materia VI",
+          "Name": "戰技魔晶石陸型",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 5722,
+          "EnglishName": "Quicktongue Materia IV",
+          "Name": "詠唱魔晶石肆型",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 5723,
+          "EnglishName": "Quicktongue Materia V",
+          "Name": "詠唱魔晶石伍型",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 18029,
+          "EnglishName": "Quicktongue Materia VI",
+          "Name": "詠唱魔晶石陸型",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 19924,
+          "EnglishName": "Rhino Beetle Carapace",
+          "Name": "犀甲蟲甲殼",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 19977,
+          "EnglishName": "Ruby Cotton Cloth",
+          "Name": "紅玉棉布",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 19978,
+          "EnglishName": "Ruby Cotton Yarn",
+          "Name": "紅玉棉線",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 5672,
+          "EnglishName": "Savage Aim Materia IV",
+          "Name": "武略魔晶石肆型",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 5673,
+          "EnglishName": "Savage Aim Materia V",
+          "Name": "武略魔晶石伍型",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 18019,
+          "EnglishName": "Savage Aim Materia VI",
+          "Name": "武略魔晶石陸型",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 5677,
+          "EnglishName": "Savage Might Materia IV",
+          "Name": "雄略魔晶石肆型",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 5678,
+          "EnglishName": "Savage Might Materia V",
+          "Name": "雄略魔晶石伍型",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 18020,
+          "EnglishName": "Savage Might Materia VI",
+          "Name": "雄略魔晶石陸型",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 20008,
+          "EnglishName": "Slate Whetstone",
+          "Name": "板岩磨刀石",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 19987,
+          "EnglishName": "Twinsilk",
+          "Name": "玉綢",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        }
+      ]
+    },
+    {
+      "VaultId": 55004,
+      "Name": "運河寶物庫神殿",
+      "Page": "The_Shifting_Altars_of_Uznair",
+      "Revision": "1439427",
+      "RevisionUrl": "https://ffxiv.consolegameswiki.com/mediawiki/index.php?title=The_Shifting_Altars_of_Uznair&oldid=1439427",
+      "SHA256": "514D627FB179D281A8EC976CBCCCD7667380E4CB7B913FBA9493FD3E2A9266AB",
+      "CatalogCount": 98,
+      "WikiCount": 79,
+      "IncludedCount": 79,
+      "MissingIds": [],
+      "Items": [
+        {
+          "Id": 22464,
+          "EnglishName": "Ala Mhigan Weave",
+          "Name": "阿拉米格絹布",
+          "Group": "Rare",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 24222,
+          "EnglishName": "Ballroom Etiquette - Scholarly Certitude",
+          "Name": "演技教材・確認",
+          "Group": "Rare",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 23899,
+          "EnglishName": "Brick Garden Circle",
+          "Name": "庭園磚地",
+          "Group": "Rare",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 24002,
+          "EnglishName": "Capybara Pup",
+          "Name": "水豚幼獸",
+          "Group": "Rare",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 23901,
+          "EnglishName": "Divine Chandelier",
+          "Name": "十二神吊燈",
+          "Group": "Rare",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 20756,
+          "EnglishName": "Eggplant Knight Flower Vase",
+          "Name": "茄子騎士花瓶",
+          "Group": "Rare",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 20757,
+          "EnglishName": "Garlic Jester Flower Vase",
+          "Name": "蒜頭明星花瓶",
+          "Group": "Rare",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 24903,
+          "EnglishName": "Hedgehoglet",
+          "Name": "小刺蝟",
+          "Group": "Rare",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 22463,
+          "EnglishName": "Holy Linen",
+          "Name": "聖麻布",
+          "Group": "Rare",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 23376,
+          "EnglishName": "Leather Cointe Quaint",
+          "Name": "風尚鞣革",
+          "Group": "Rare",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 23878,
+          "EnglishName": "Little Chef's Playset",
+          "Name": "扮家家酒組合",
+          "Group": "Rare",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 20758,
+          "EnglishName": "Mandragora Queen Flower Vase",
+          "Name": "曼德拉王后花瓶",
+          "Group": "Rare",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 20759,
+          "EnglishName": "Onion Prince Flower Vase",
+          "Name": "洋蔥王子花瓶",
+          "Group": "Rare",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 19770,
+          "EnglishName": "Timeworn Thief's Map",
+          "Name": "深層傳送魔紋的地圖",
+          "Group": "Rare",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 20760,
+          "EnglishName": "Tomato King Flower Vase",
+          "Name": "番茄國王花瓶",
+          "Group": "Rare",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 24804,
+          "EnglishName": "Waterproof Cloth",
+          "Name": "疏水棉布",
+          "Group": "Rare",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 24336,
+          "EnglishName": "Whisperfine Fleece",
+          "Name": "私語羊毛",
+          "Group": "Rare",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 13,
+          "EnglishName": "Water Crystal",
+          "Name": "水之水晶",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 11,
+          "EnglishName": "Earth Crystal",
+          "Name": "土之水晶",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 12,
+          "EnglishName": "Lightning Crystal",
+          "Name": "雷之水晶",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 8,
+          "EnglishName": "Fire Crystal",
+          "Name": "火之水晶",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 9,
+          "EnglishName": "Ice Crystal",
+          "Name": "冰之水晶",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 10,
+          "EnglishName": "Wind Crystal",
+          "Name": "風之水晶",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 19,
+          "EnglishName": "Water Cluster",
+          "Name": "水之晶簇",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 17,
+          "EnglishName": "Earth Cluster",
+          "Name": "土之晶簇",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 18,
+          "EnglishName": "Lightning Cluster",
+          "Name": "雷之晶簇",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 14,
+          "EnglishName": "Fire Cluster",
+          "Name": "火之晶簇",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 15,
+          "EnglishName": "Ice Cluster",
+          "Name": "冰之晶簇",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 16,
+          "EnglishName": "Wind Cluster",
+          "Name": "風之晶簇",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 5682,
+          "EnglishName": "Battledance Materia IV",
+          "Name": "剛柔魔晶石肆型",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 5683,
+          "EnglishName": "Battledance Materia V",
+          "Name": "剛柔魔晶石伍型",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 18021,
+          "EnglishName": "Battledance Materia VI",
+          "Name": "剛柔魔晶石陸型",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 19882,
+          "EnglishName": "Competent Craftsman's Tea",
+          "Name": "名匠藥茶",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 18030,
+          "EnglishName": "Cracked Cluster",
+          "Name": "惰性晶簇",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 5702,
+          "EnglishName": "Craftsman's Competence Materia IV",
+          "Name": "名匠魔晶石肆型",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 5708,
+          "EnglishName": "Craftsman's Cunning Materia V",
+          "Name": "魔匠魔晶石伍型",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 5687,
+          "EnglishName": "Gatherer's Guerdon Materia IV",
+          "Name": "達識魔晶石肆型",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 19920,
+          "EnglishName": "Gazelle Horn",
+          "Name": "瞪羚角",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 19892,
+          "EnglishName": "Grade 1 Reisui of Dexterity",
+          "Name": "1級巧力之靈水",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 19894,
+          "EnglishName": "Grade 1 Reisui of Intelligence",
+          "Name": "1級智力之靈水",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 19895,
+          "EnglishName": "Grade 1 Reisui of Mind",
+          "Name": "1級意力之靈水",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 19891,
+          "EnglishName": "Grade 1 Reisui of Strength",
+          "Name": "1級剛力之靈水",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 19893,
+          "EnglishName": "Grade 1 Reisui of Vitality",
+          "Name": "1級耐力之靈水",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 24257,
+          "EnglishName": "Grade 4 Reisui of Dexterity",
+          "Name": "4級巧力之靈水",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 24259,
+          "EnglishName": "Grade 4 Reisui of Intelligence",
+          "Name": "4級智力之靈水",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 24260,
+          "EnglishName": "Grade 4 Reisui of Mind",
+          "Name": "4級意力之靈水",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 24256,
+          "EnglishName": "Grade 4 Reisui of Strength",
+          "Name": "4級剛力之靈水",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 24258,
+          "EnglishName": "Grade 4 Reisui of Vitality",
+          "Name": "4級耐力之靈水",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 24245,
+          "EnglishName": "Gyr Abanian Carbon Rods",
+          "Name": "基拉巴尼亞碳晶",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 19994,
+          "EnglishName": "Gyuki Leather",
+          "Name": "牛鬼革",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 5667,
+          "EnglishName": "Heavens' Eye Materia IV",
+          "Name": "神眼魔晶石肆型",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 5668,
+          "EnglishName": "Heavens' Eye Materia V",
+          "Name": "神眼魔晶石伍型",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 18018,
+          "EnglishName": "Heavens' Eye Materia VI",
+          "Name": "神眼魔晶石陸型",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 24249,
+          "EnglishName": "High-gloss Urushi",
+          "Name": "黑呂色漆",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 19940,
+          "EnglishName": "Koppranickel Ingot",
+          "Name": "白銅錠",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 19938,
+          "EnglishName": "Koppranickel Nugget",
+          "Name": "白銅塊",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 19980,
+          "EnglishName": "Kudzu Cloth",
+          "Name": "葛布",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 19981,
+          "EnglishName": "Kudzu Thread",
+          "Name": "葛線",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 19926,
+          "EnglishName": "Larch Lumber",
+          "Name": "落葉松木材",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 19943,
+          "EnglishName": "Oroshigane Ingot",
+          "Name": "卸鐵錠",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 5632,
+          "EnglishName": "Piety Materia IV",
+          "Name": "信力魔晶石肆型",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 5633,
+          "EnglishName": "Piety Materia V",
+          "Name": "信力魔晶石伍型",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 18011,
+          "EnglishName": "Piety Materia VI",
+          "Name": "信力魔晶石陸型",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 5717,
+          "EnglishName": "Quickarm Materia IV",
+          "Name": "戰技魔晶石肆型",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 5718,
+          "EnglishName": "Quickarm Materia V",
+          "Name": "戰技魔晶石伍型",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 18028,
+          "EnglishName": "Quickarm Materia VI",
+          "Name": "戰技魔晶石陸型",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 5722,
+          "EnglishName": "Quicktongue Materia IV",
+          "Name": "詠唱魔晶石肆型",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 5723,
+          "EnglishName": "Quicktongue Materia V",
+          "Name": "詠唱魔晶石伍型",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 18029,
+          "EnglishName": "Quicktongue Materia VI",
+          "Name": "詠唱魔晶石陸型",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 19924,
+          "EnglishName": "Rhino Beetle Carapace",
+          "Name": "犀甲蟲甲殼",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 5672,
+          "EnglishName": "Savage Aim Materia IV",
+          "Name": "武略魔晶石肆型",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 5673,
+          "EnglishName": "Savage Aim Materia V",
+          "Name": "武略魔晶石伍型",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 18019,
+          "EnglishName": "Savage Aim Materia VI",
+          "Name": "武略魔晶石陸型",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 5677,
+          "EnglishName": "Savage Might Materia IV",
+          "Name": "雄略魔晶石肆型",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 5678,
+          "EnglishName": "Savage Might Materia V",
+          "Name": "雄略魔晶石伍型",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 18020,
+          "EnglishName": "Savage Might Materia VI",
+          "Name": "雄略魔晶石陸型",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 20008,
+          "EnglishName": "Slate Whetstone",
+          "Name": "板岩磨刀石",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 19964,
+          "EnglishName": "Star Spinel",
+          "Name": "星尖石",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 19984,
+          "EnglishName": "Worsted Yarn",
+          "Name": "精紡毛紗",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        }
+      ]
+    },
+    {
+      "VaultId": 55003,
+      "Name": "運河寶物庫深層",
+      "Page": "The_Hidden_Canals_of_Uznair",
+      "Revision": "1552458",
+      "RevisionUrl": "https://ffxiv.consolegameswiki.com/mediawiki/index.php?title=The_Hidden_Canals_of_Uznair&oldid=1552458",
+      "SHA256": "7B70A7E3271903AE9323160E9D62CB8D75E571C5CE90DBEF4E777A902F06491C",
+      "CatalogCount": 93,
+      "WikiCount": 64,
+      "IncludedCount": 64,
+      "MissingIds": [],
+      "Items": [
+        {
+          "Id": 21205,
+          "EnglishName": "Hannish Wool",
+          "Name": "拉札漢斜紋布",
+          "Group": "Rare",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 22463,
+          "EnglishName": "Holy Linen",
+          "Name": "聖麻布",
+          "Group": "Rare",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 21206,
+          "EnglishName": "Thavnairian Wool",
+          "Name": "薩維奈斜紋布",
+          "Group": "Rare",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 22464,
+          "EnglishName": "Ala Mhigan Weave",
+          "Name": "阿拉米格絹布",
+          "Group": "Rare",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 20273,
+          "EnglishName": "Nagxian Leather",
+          "Name": "納夏鞣革",
+          "Group": "Rare",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 20271,
+          "EnglishName": "Ratanhia Leaves",
+          "Name": "拉坦尼葉",
+          "Group": "Rare",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 20270,
+          "EnglishName": "Nagxian Silk",
+          "Name": "納夏薄絹",
+          "Group": "Rare",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 24336,
+          "EnglishName": "Whisperfine Fleece",
+          "Name": "私語羊毛",
+          "Group": "Rare",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 21283,
+          "EnglishName": "A Father's Pride Orchestrion Roll",
+          "Name": "管弦樂琴樂譜：光宗耀祖",
+          "Group": "Rare",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 22476,
+          "EnglishName": "A Mother's Pride Orchestrion Roll",
+          "Name": "管弦樂琴樂譜：母以子貴",
+          "Group": "Rare",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 22474,
+          "EnglishName": "Crimson Sunset Orchestrion Roll",
+          "Name": "管弦樂琴樂譜：紅色夜闌",
+          "Group": "Rare",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 21280,
+          "EnglishName": "Crimson Sunrise Orchestrion Roll",
+          "Name": "管弦樂琴樂譜：紅色黎明",
+          "Group": "Rare",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 17863,
+          "EnglishName": "The Twin Faces of Fate - The Theme of Ul'dah Orchestrion Roll",
+          "Name": "管弦樂琴樂譜：交錯的命運",
+          "Group": "Rare",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 17861,
+          "EnglishName": "Navigator's Glory - The Theme of Limsa Lominsa Orchestrion Roll",
+          "Name": "管弦樂琴樂譜：匯集的海風",
+          "Group": "Rare",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 17862,
+          "EnglishName": "Born of the Boughs - The Theme of Gridania Orchestrion Roll",
+          "Name": "管弦樂琴樂譜：喧囂的樹叢",
+          "Group": "Rare",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 24002,
+          "EnglishName": "Capybara Pup",
+          "Name": "水豚幼獸",
+          "Group": "Rare",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 21922,
+          "EnglishName": "The Gold Whisker",
+          "Name": "金鯰",
+          "Group": "Rare",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 21060,
+          "EnglishName": "Wind-up Matanga",
+          "Name": "象魔人偶",
+          "Group": "Rare",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 24903,
+          "EnglishName": "Hedgehoglet",
+          "Name": "小刺蝟",
+          "Group": "Rare",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 23878,
+          "EnglishName": "Little Chef's Playset",
+          "Name": "扮家家酒組合",
+          "Group": "Rare",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 17978,
+          "EnglishName": "Matanga Lamp",
+          "Name": "象魔燈",
+          "Group": "Rare",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 24804,
+          "EnglishName": "Waterproof Cloth",
+          "Name": "疏水棉布",
+          "Group": "Rare",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 13,
+          "EnglishName": "Water Crystal",
+          "Name": "水之水晶",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 11,
+          "EnglishName": "Earth Crystal",
+          "Name": "土之水晶",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 12,
+          "EnglishName": "Lightning Crystal",
+          "Name": "雷之水晶",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 8,
+          "EnglishName": "Fire Crystal",
+          "Name": "火之水晶",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 9,
+          "EnglishName": "Ice Crystal",
+          "Name": "冰之水晶",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 10,
+          "EnglishName": "Wind Crystal",
+          "Name": "風之水晶",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 19,
+          "EnglishName": "Water Cluster",
+          "Name": "水之晶簇",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 17,
+          "EnglishName": "Earth Cluster",
+          "Name": "土之晶簇",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 18,
+          "EnglishName": "Lightning Cluster",
+          "Name": "雷之晶簇",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 14,
+          "EnglishName": "Fire Cluster",
+          "Name": "火之晶簇",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 15,
+          "EnglishName": "Ice Cluster",
+          "Name": "冰之晶簇",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 16,
+          "EnglishName": "Wind Cluster",
+          "Name": "風之晶簇",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 18030,
+          "EnglishName": "Cracked Cluster",
+          "Name": "惰性晶簇",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 19891,
+          "EnglishName": "Grade 1 Reisui of Strength",
+          "Name": "1級剛力之靈水",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 19895,
+          "EnglishName": "Grade 1 Reisui of Mind",
+          "Name": "1級意力之靈水",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 19892,
+          "EnglishName": "Grade 1 Reisui of Dexterity",
+          "Name": "1級巧力之靈水",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 19894,
+          "EnglishName": "Grade 1 Reisui of Intelligence",
+          "Name": "1級智力之靈水",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 19893,
+          "EnglishName": "Grade 1 Reisui of Vitality",
+          "Name": "1級耐力之靈水",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 19901,
+          "EnglishName": "Enchanted Koppranickel Ink",
+          "Name": "白銅附魔墨水",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 19940,
+          "EnglishName": "Koppranickel Ingot",
+          "Name": "白銅錠",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 19919,
+          "EnglishName": "Muud Suud Horn",
+          "Name": "姆德斯德角",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 5672,
+          "EnglishName": "Savage Aim Materia IV",
+          "Name": "武略魔晶石肆型",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 5673,
+          "EnglishName": "Savage Aim Materia V",
+          "Name": "武略魔晶石伍型",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 18019,
+          "EnglishName": "Savage Aim Materia VI",
+          "Name": "武略魔晶石陸型",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 5677,
+          "EnglishName": "Savage Might Materia IV",
+          "Name": "雄略魔晶石肆型",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 5678,
+          "EnglishName": "Savage Might Materia V",
+          "Name": "雄略魔晶石伍型",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 18020,
+          "EnglishName": "Savage Might Materia VI",
+          "Name": "雄略魔晶石陸型",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 5667,
+          "EnglishName": "Heavens' Eye Materia IV",
+          "Name": "神眼魔晶石肆型",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 5668,
+          "EnglishName": "Heavens' Eye Materia V",
+          "Name": "神眼魔晶石伍型",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 18018,
+          "EnglishName": "Heavens' Eye Materia VI",
+          "Name": "神眼魔晶石陸型",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 5717,
+          "EnglishName": "Quickarm Materia IV",
+          "Name": "戰技魔晶石肆型",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 5718,
+          "EnglishName": "Quickarm Materia V",
+          "Name": "戰技魔晶石伍型",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 18028,
+          "EnglishName": "Quickarm Materia VI",
+          "Name": "戰技魔晶石陸型",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 5722,
+          "EnglishName": "Quicktongue Materia IV",
+          "Name": "詠唱魔晶石肆型",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 5723,
+          "EnglishName": "Quicktongue Materia V",
+          "Name": "詠唱魔晶石伍型",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 18029,
+          "EnglishName": "Quicktongue Materia VI",
+          "Name": "詠唱魔晶石陸型",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 5682,
+          "EnglishName": "Battledance Materia IV",
+          "Name": "剛柔魔晶石肆型",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 5683,
+          "EnglishName": "Battledance Materia V",
+          "Name": "剛柔魔晶石伍型",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 18021,
+          "EnglishName": "Battledance Materia VI",
+          "Name": "剛柔魔晶石陸型",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 5632,
+          "EnglishName": "Piety Materia IV",
+          "Name": "信力魔晶石肆型",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 5633,
+          "EnglishName": "Piety Materia V",
+          "Name": "信力魔晶石伍型",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        },
+        {
+          "Id": 18011,
+          "EnglishName": "Piety Materia VI",
+          "Name": "信力魔晶石陸型",
+          "Group": "Common",
+          "Included": true,
+          "HasSource": true
+        }
+      ]
+    }
+  ]
+}
