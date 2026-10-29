@@ -50,7 +50,7 @@ try {
 } finally { $taskZip.Dispose() }
 if ($Online) {
     $taskResponse = Invoke-WebRequest -Uri $taskRepositoryUrl -Headers @{ 'Cache-Control' = 'no-cache' }
-    if ([string]$taskResponse.Content -cne $taskJson) { throw 'Public repository JSON differs from the prepared file.' }
+    if (([string]$taskResponse.Content).Replace("`r`n", "`n") -cne $taskJson.Replace("`r`n", "`n")) { throw 'Public repository JSON differs from the prepared file.' }
     $taskHttp = [Net.Http.HttpClient]::new()
     try {
         $taskBytes = $taskHttp.GetByteArrayAsync($taskEntry.DownloadLinkInstall).GetAwaiter().GetResult()
@@ -60,4 +60,5 @@ if ($Online) {
     } finally { $taskHttp.Dispose() }
 }
 Write-Output "Verified TreasureKeeperGlobal ${taskVersion}: API 15, installation/update links and compiled runtime archive."
+
 
