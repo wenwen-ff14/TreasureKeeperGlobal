@@ -40,7 +40,7 @@ public sealed class MapView
         if (ImGui.Button("取消本次操作")) actions.Cancel();
         ImGui.EndDisabled();
         ImGui.TextWrapped(state.Status);
-        ImGui.TextColored(Muted, $"本機可辨識 {state.Maps.Count} 種寶圖 · /tmap 開啟此視窗");
+        ImGui.TextColored(Muted, $"本機可辨識 {state.Maps.Count} 種寶圖 · /tmapglobal 開啟此視窗");
         ImGui.TextWrapped("已有解讀中的寶圖時會停止；每次按鍵只解讀一張。地圖需在一般背包，且角色停止移動、非戰鬥。");
         ImGui.TextWrapped("卡住可再按同一快捷鍵立即重試；深層地圖仍固定保留，但可按鍵解讀。");
         ImGui.Separator();
@@ -73,7 +73,7 @@ public sealed class MapView
             ImGui.PushID((int)map.Id);
             ImGui.TableNextRow(); ImGui.TableNextColumn();
             ImGui.TextWrapped(map.Name);
-            if (ImGui.IsItemHovered()) ImGui.SetTooltip($"物品 ID {map.Id}\n也可使用指令 /tmap {map.Id}");
+            if (ImGui.IsItemHovered()) ImGui.SetTooltip($"物品 ID {map.Id}\n也可使用指令 /tmapglobal {map.Id}");
             ImGui.TableNextColumn(); ImGui.Text(counts.GetValueOrDefault(map.Id).ToString());
             ImGui.TableNextColumn();
             ImGui.BeginDisabled(state.Busy);

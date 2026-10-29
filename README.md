@@ -12,7 +12,7 @@ https://raw.githubusercontent.com/wenwen-ff14/TreasureKeeperGlobal/main/pluginma
 ```
 
 3. 輸入 `/xlplugins`，重新整理後搜尋 **TreasureKeeperGlobal**，按「安裝」。
-4. 安裝完成後輸入 `/tkeep` 開啟整理助手，或 `/tmap` 開啟寶圖工具。
+4. 安裝完成後輸入 `/tkeepglobal` 開啟整理助手，或 `/tmapglobal` 開啟寶圖工具。
 
 插件安裝器會自動下載並安裝套件，後續更新也使用同一網址。玩家不需要下載原始碼或自行編譯。
 
@@ -23,9 +23,9 @@ https://raw.githubusercontent.com/wenwen-ff14/TreasureKeeperGlobal/main/pluginma
 - 自動補錄庫內新取得物品，每庫可設定新物品預設保留或丟棄。
 - 寶圖快捷解讀與本次解讀自動確認。
 
-自動丟棄需手動啟動，會移除一般背包中已勾選物品的整疊數量，包含原本持有的物品。輸入 `/tkeep stop` 停止。
+自動丟棄需手動啟動，會移除一般背包中已勾選物品的整疊數量，包含原本持有的物品。輸入 `/tkeepglobal stop` 停止。
 
-國際服版使用獨立設定，不匯入繁中版丟棄選擇。兩版使用相同指令，請勿同時載入。
+國際服版使用獨立設定，不匯入繁中版丟棄選擇。國際服版使用專屬指令，避免與其他插件衝突。
 
 內建掉落清單不代表國際服完整掉落表，可透過自動補錄或手動新增補充。目前已通過離線驗證，尚待國際服遊戲內實測。
 

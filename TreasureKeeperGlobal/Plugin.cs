@@ -114,10 +114,10 @@ public sealed class Plugin : IDalamudPlugin
             window = new MainWindow(this);
             windows.AddWindow(window);
             windows.AddWindow(mapWindow);
-            keepCommandRegistered = Commands.AddHandler("/tkeep", new CommandInfo(OnCommand)
-            { HelpMessage = "寶物庫整理助手。/tkeep 開啟；/tkeep stop 立即停止自動丟棄。" });
-            mapCommandRegistered = Commands.AddHandler("/tmap", new CommandInfo(OnMapCommand)
-            { HelpMessage = "地圖快捷解讀。/tmap 開啟；/tmap <物品 ID> 解讀；/tmap stop 取消本次操作。" });
+            keepCommandRegistered = Commands.AddHandler("/tkeepglobal", new CommandInfo(OnCommand)
+            { HelpMessage = "寶物庫整理助手。/tkeepglobal 開啟；/tkeepglobal stop 立即停止自動丟棄。" });
+            mapCommandRegistered = Commands.AddHandler("/tmapglobal", new CommandInfo(OnMapCommand)
+            { HelpMessage = "地圖快捷解讀。/tmapglobal 開啟；/tmapglobal <物品 ID> 解讀；/tmapglobal stop 取消本次操作。" });
             if (!keepCommandRegistered || !mapCommandRegistered) throw new InvalidOperationException("TreasureKeeperGlobal command is already registered");
             Framework.Update += Update;
             Client.TerritoryChanged += OnTerritoryChanged;
@@ -437,8 +437,8 @@ public sealed class Plugin : IDalamudPlugin
         Release(() => Interface.UiBuilder.Draw -= windows.Draw);
         Release(() => Interface.UiBuilder.OpenMainUi -= Open);
         Release(() => Interface.UiBuilder.OpenConfigUi -= Open);
-        if (keepCommandRegistered) Release(() => Commands.RemoveHandler("/tkeep"));
-        if (mapCommandRegistered) Release(() => Commands.RemoveHandler("/tmap"));
+        if (keepCommandRegistered) Release(() => Commands.RemoveHandler("/tkeepglobal"));
+        if (mapCommandRegistered) Release(() => Commands.RemoveHandler("/tmapglobal"));
         Release(() => Maps?.Dispose());
         Release(() => Discovery?.Dispose());
         Release(windows.RemoveAllWindows);
