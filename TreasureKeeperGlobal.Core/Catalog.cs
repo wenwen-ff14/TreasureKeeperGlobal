@@ -3,7 +3,8 @@ using System.Text.Json;
 namespace TreasureKeeperGlobal.Core;
 
 public sealed record TreasureItem(uint Id, string Name, string EnglishName, string Category,
-    bool Available, bool Discardable, string[] Sources, bool IsLooseMateria = false);
+    bool Available, bool Discardable, string[] Sources, bool IsLooseMateria = false,
+    uint IconId = 0, string ChineseName = "");
 
 public sealed record TreasureVault(uint Id, uint TerritoryId, uint DutyId, string Name, string EnglishName,
     string Map, bool Available, TreasureItem[] Items, uint[]? OutdoorTerritoryIds = null)

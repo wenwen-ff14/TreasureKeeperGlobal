@@ -11,7 +11,7 @@ public sealed record DiscoveryViewState(bool Enabled, string Status, IReadOnlyDi
     IReadOnlyDictionary<uint, bool>? DiscardNewByVault = null);
 public sealed record TreasureActions(Action<bool> Arm, Action<uint, IEnumerable<TreasureItem>, bool> Select,
     Action<bool> SetHighQuality, Func<string, TreasureItem[]> Search, Action<uint, uint> AddCustom, Action? OpenMaps = null,
-    Action<bool>? SetDiscovery = null, Action<uint, bool>? SetDiscoveryDefault = null);
+    Action<bool>? SetDiscovery = null, Action<uint, bool>? SetDiscoveryDefault = null, Func<uint, Vector2, bool>? DrawIcon = null);
 
 public sealed class TreasureView
 {
@@ -108,7 +108,7 @@ public sealed class TreasureView
         var rows = sortedItems.Where(i => (Category == 0 || i.Category == Categories.All[Category]) &&
             (!selectedOnly || selected.Contains(i.Id)) && (!inBagOnly || counts.GetValueOrDefault(i.Id) > 0) &&
             (!DiscoveredOnly || i.Sources.Contains(LootDiscoveryCatalog.Source)) &&
-            (query.Length == 0 || i.Name.Contains(query, StringComparison.OrdinalIgnoreCase) || i.EnglishName.Contains(query, StringComparison.OrdinalIgnoreCase) || i.Id.ToString().Contains(query))).ToArray();
+            (query.Length == 0 || i.Name.Contains(query, StringComparison.OrdinalIgnoreCase) || i.EnglishName.Contains(query, StringComparison.OrdinalIgnoreCase) || i.ChineseName.Contains(query, StringComparison.OrdinalIgnoreCase) || i.Id.ToString().Contains(query))).ToArray();
         if (ImGui.Button("勾選篩選結果")) actions.Select(vault.Id, rows, true);
         ImGui.SameLine();
         if (ImGui.Button("取消篩選勾選")) actions.Select(vault.Id, rows, false);
@@ -129,7 +129,7 @@ public sealed class TreasureView
             ImGui.BeginDisabled(!CleanupPolicy.CanSelect(item));
             if (ImGui.Checkbox("##discard", ref discard)) actions.Select(vault.Id, [item], discard);
             ImGui.EndDisabled();
-            ImGui.TableNextColumn(); ImGui.TextWrapped(item.Name);
+            ImGui.TableNextColumn(); DrawItem(item, actions);
             if (ImGui.IsItemHovered())
             {
                 ImGui.BeginTooltip();
@@ -190,7 +190,8 @@ public sealed class TreasureView
             ImGui.BeginDisabled(exists);
             if (ImGui.SmallButton(exists ? "已加入" : "加入清單")) actions.AddCustom(vault.Id, item.Id);
             ImGui.EndDisabled(); ImGui.SameLine();
-            ImGui.TextWrapped($"{item.Name} · {item.Category} · ID {item.Id}");
+            DrawItem(item, actions);
+            ImGui.TextUnformatted($"{item.Category} · ID {item.Id}");
             ImGui.PopID();
         }
     }
@@ -237,7 +238,7 @@ public sealed class TreasureView
             var item = byId.GetValueOrDefault(record.ItemId);
             if (item is null) continue;
             ImGui.PushID((int)item.Id);
-            ImGui.TableNextRow(); ImGui.TableNextColumn(); ImGui.TextWrapped(item.Name);
+            ImGui.TableNextRow(); ImGui.TableNextColumn(); DrawItem(item, actions);
             ImGui.TableNextColumn();
             if (CleanupPolicy.CanSelect(item))
             {
@@ -250,6 +251,21 @@ public sealed class TreasureView
             ImGui.PopID();
         }
         ImGui.EndTable();
+    }
+
+    private static void DrawItem(TreasureItem item, TreasureActions actions)
+    {
+        if (actions.DrawIcon is not null)
+        {
+            var size = new Vector2(U(28));
+            if (!actions.DrawIcon(item.IconId, size)) ImGui.Dummy(size);
+            ImGui.SameLine();
+        }
+        ImGui.BeginGroup();
+        ImGui.TextWrapped(item.Name);
+        if (!string.IsNullOrWhiteSpace(item.ChineseName) && item.ChineseName != item.Name)
+            ImGui.TextColored(Muted, item.ChineseName);
+        ImGui.EndGroup();
     }
 
     private static void DrawDetails(TreasureViewState state)

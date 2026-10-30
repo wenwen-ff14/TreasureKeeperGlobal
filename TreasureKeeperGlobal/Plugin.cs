@@ -1,6 +1,8 @@
 using System.Reflection;
 using Dalamud.Game.ClientState.Conditions;
 using Dalamud.Game.Command;
+using Dalamud.Bindings.ImGui;
+using Dalamud.Interface.Textures;
 using Dalamud.Interface.Windowing;
 using Dalamud.IoC;
 using Dalamud.Plugin;
@@ -29,12 +31,17 @@ public sealed class Plugin : IDalamudPlugin
     [PluginService] internal static IAddonLifecycle AddonLifecycle { get; private set; } = null!;
     [PluginService] internal static ISeStringEvaluator StringEvaluator { get; private set; } = null!;
     [PluginService] internal static IGameInventory Inventory { get; private set; } = null!;
+    [PluginService] internal static ITextureProvider Textures { get; private set; } = null!;
 
     internal Configuration Config { get; }
     internal TreasureCatalog Catalog { get; private set; }
     internal IReadOnlyList<BagSlot> Slots { get; private set; } = [];
     internal bool Armed { get; private set; }
-    internal HashSet<uint> SelectedItems => Config.DiscardItems!;
+    internal DiscardProfile ActiveProfile => Config.Profiles.Profiles[activeProfileId];
+    internal HashSet<uint> SelectedItems => ActiveProfile.DiscardItems;
+    internal string ActiveProfileId => activeProfileId;
+    internal bool ProfileChangePending => tracker.Pending is not null;
+    internal ulong CurrentCharacter => Client.IsLoggedIn && Player.IsLoaded ? Player.ContentId : 0;
     internal string Status { get; private set; } = "尚未啟動。先選擇寶物庫，再勾選要丟棄的物品。";
     internal Queue<string> History { get; } = new();
     internal string[] HistorySnapshot { get; private set; } = [];
@@ -55,6 +62,9 @@ public sealed class Plugin : IDalamudPlugin
     private bool keepCommandRegistered;
     private bool mapCommandRegistered;
     private string? lastBlockedSummary;
+    private string activeProfileId = "";
+    private ulong profileCharacter;
+    private static readonly Dictionary<uint, string> ChineseNames = [];
 
     public Plugin()
     {
@@ -66,6 +76,8 @@ public sealed class Plugin : IDalamudPlugin
         Config.DiscardNewByVault ??= [];
         using var stream = Assembly.GetExecutingAssembly().GetManifestResourceStream("TreasureKeeperGlobal.Data.catalog.json")!;
         Catalog = TreasureCatalog.Load(stream);
+        ChineseNames.Clear();
+        foreach (var item in Catalog.Vaults.SelectMany(v => v.Items)) ChineseNames.TryAdd(item.Id, item.Name);
         var duties = Data.GetExcelSheet<ContentFinderCondition>();
         var englishDuties = Data.GetExcelSheet<ContentFinderCondition>(Dalamud.Game.ClientLanguage.English);
         Catalog = Catalog with { Vaults = Catalog.Vaults.Select(v =>
@@ -100,12 +112,20 @@ public sealed class Plugin : IDalamudPlugin
         Config.DiscardItems = CleanupPolicy.RestoreSelection(itemIndex.Values, Config.DiscardItems,
             Config.DiscardByVault.Values.Where(ids => ids is not null));
         Config.DiscardByVault.Clear();
-        Config.ConfiguredItems = DiscoverySelectionPolicy.RestoreConfigured(Config.ConfiguredItems, SelectedItems,
+        Config.ConfiguredItems = DiscoverySelectionPolicy.RestoreConfigured(Config.ConfiguredItems, Config.DiscardItems,
             Config.DiscoveredByVault.Values.Where(r => r is not null).SelectMany(r => r.Keys),
             Config.CustomItemsByVault.Values.Where(ids => ids is not null).SelectMany(ids => ids));
-        Config.Version = 4;
+        Config.Profiles ??= new();
+        Config.Profiles.Initialize(new DiscardProfile
+        {
+            DiscardItems = Config.DiscardItems, ConfiguredItems = Config.ConfiguredItems,
+            IncludeHighQuality = Config.IncludeHighQuality, DiscardNewByVault = Config.DiscardNewByVault,
+        }, itemIndex.Values);
+        profileCharacter = CurrentCharacter;
+        activeProfileId = Config.Profiles.Resolve(profileCharacter);
+        Config.Version = 5;
         SaveConfig();
-        logout = (_, _) => { Armed = false; armedCharacter = 0; Slots = []; tracker.Reset(); Discovery?.Reset(); Maps?.Cancel("已登出，停止本次解讀。"); FlushConfig(true); Status = "已登出，需重新啟動。"; };
+        logout = (_, _) => { Armed = false; armedCharacter = 0; profileCharacter = 0; Slots = []; tracker.Reset(); Discovery?.Reset(); Maps?.Cancel("已登出，停止本次解讀。"); FlushConfig(true); Status = "已登出，需重新啟動。"; };
         try
         {
             Maps = new MapDecipherService(this);
@@ -133,6 +153,7 @@ public sealed class Plugin : IDalamudPlugin
     {
         var available = Data.GetExcelSheet<Item>().TryGetRow(item.Id, out var row) && !string.IsNullOrWhiteSpace(row.Name.ToString());
         return item with { Available = available, Discardable = available && !row.IsIndisposable && item.Id > 19,
+            IconId = available ? (uint)row.Icon : 0, ChineseName = ChineseNames.GetValueOrDefault(item.Id, ""),
             Name = available ? row.Name.ToString() : item.Name,
             IsLooseMateria = available && row.ItemSearchCategory.RowId == 57 && row.EquipSlotCategory.RowId == 0,
             Category = available ? Categories.Classify(item.Id, item.EnglishName, row.ItemSearchCategory.RowId, row.ItemUICategory.Value.Name.ToString(), row.ItemAction.Value.Action.RowId) : item.Category };
@@ -149,8 +170,74 @@ public sealed class Plugin : IDalamudPlugin
         query = query.Trim();
         if (uint.TryParse(query, out var id)) return FindItem(id) is { } item ? [item] : [];
         if (query.Length < 2) return [];
-        return Data.GetExcelSheet<Item>().Where(i => i.Name.ToString().Contains(query, StringComparison.OrdinalIgnoreCase))
+        return Data.GetExcelSheet<Item>().Where(i => i.Name.ToString().Contains(query, StringComparison.OrdinalIgnoreCase) ||
+                ChineseNames.GetValueOrDefault(i.RowId, "").Contains(query, StringComparison.OrdinalIgnoreCase))
             .Take(80).Select(i => FindItem(i.RowId)!).ToArray();
+    }
+
+    internal static bool DrawItemIcon(uint icon, System.Numerics.Vector2 size)
+    {
+        if (icon == 0) return false;
+        var texture = Textures.GetFromGameIcon(new GameIconLookup(icon)).GetWrapOrDefault();
+        if (texture is null) return false;
+        ImGui.Image(texture.Handle, size);
+        return true;
+    }
+
+    private void ApplyProfile(string id)
+    {
+        SetArmed(false);
+        activeProfileId = id;
+        Slots = [];
+        lastBlockedSummary = null;
+        Status = $"已套用設定集「{ActiveProfile.Name}」，確認清單後請手動啟動。";
+    }
+
+    internal void SelectProfile(string id)
+    {
+        if (ProfileChangePending) return;
+        if (!Config.Profiles.Select(id, CurrentCharacter)) return;
+        ApplyProfile(id);
+        SaveConfig();
+    }
+
+    internal void CopyProfile(string name)
+    {
+        if (ProfileChangePending || string.IsNullOrWhiteSpace(name)) return;
+        SelectProfile(Config.Profiles.Duplicate(activeProfileId, name));
+    }
+
+    internal void RenameProfile(string name)
+    {
+        if (string.IsNullOrWhiteSpace(name)) return;
+        ActiveProfile.Name = name.Trim();
+        SaveConfig();
+    }
+
+    internal void DeleteProfile()
+    {
+        if (ProfileChangePending || !Config.Profiles.Delete(activeProfileId)) return;
+        ApplyProfile(Config.Profiles.Resolve(CurrentCharacter));
+        SaveConfig();
+    }
+
+    internal void BindProfile(bool bind)
+    {
+        var character = CurrentCharacter;
+        if (character == 0 || ProfileChangePending) return;
+        if (bind) Config.Profiles.CharacterProfiles[character] = activeProfileId;
+        else Config.Profiles.CharacterProfiles.Remove(character);
+        ApplyProfile(Config.Profiles.Resolve(character));
+        SaveConfig();
+    }
+
+    private void SyncCharacterProfile()
+    {
+        var character = CurrentCharacter;
+        // A transient unloaded PlayerState during zoning is not a logout.
+        if (character == 0 || character == profileCharacter) return;
+        profileCharacter = character;
+        ApplyProfile(Config.Profiles.Resolve(character));
     }
 
     internal void AddCustom(uint vaultId, uint itemId)
@@ -163,7 +250,7 @@ public sealed class Plugin : IDalamudPlugin
         var vault = Catalog.Vaults[index] with { Items = [.. Catalog.Vaults[index].Items, item] };
         Catalog.Vaults[index] = vault;
         itemIndex.TryAdd(itemId, item);
-        Config.ConfiguredItems.Add(itemId);
+        ActiveProfile.ConfiguredItems.Add(itemId);
         SaveConfig();
         Status = $"已加入 {vault.Name}：{item.Name}。" + (SelectedItems.Contains(itemId) ? "此物品已在全域丟棄清單。" : "預設保留，可在清單勾選丟棄。");
     }
@@ -174,7 +261,7 @@ public sealed class Plugin : IDalamudPlugin
         if (vault is null) return;
         var known = vault.Items.Select(i => i.Id).ToHashSet();
         CleanupPolicy.SetSelection(SelectedItems, items.Where(i => known.Contains(i.Id)).Select(i => itemIndex[i.Id]), discard,
-            Config.ConfiguredItems);
+            ActiveProfile.ConfiguredItems);
         SaveConfig();
         Status = Armed ? "全域丟棄清單已更新，所有地點立即套用。已送出的請求仍可能完成。" : "全域丟棄清單已儲存；啟動後不分地點處理所有已勾選物品。";
     }
@@ -183,7 +270,7 @@ public sealed class Plugin : IDalamudPlugin
     {
         var vault = Catalog.Vaults.FirstOrDefault(v => v.Id == vaultId && !v.IsOutdoor);
         if (vault is null) return;
-        Config.DiscardNewByVault[vaultId] = discard;
+        ActiveProfile.DiscardNewByVault[vaultId] = discard;
         SaveConfig();
         Status = $"{vault.Name}：新補錄物品預設{(discard ? "自動丟棄" : "保留")}；既有物品設定不變。";
     }
@@ -215,8 +302,8 @@ public sealed class Plugin : IDalamudPlugin
             changed = true;
             if (!first) continue;
             added++;
-            var applied = DiscoverySelectionPolicy.ApplyDefault(vaultId, item, Config.DiscardNewByVault,
-                Config.ConfiguredItems, SelectedItems);
+            var applied = DiscoverySelectionPolicy.ApplyDefault(vaultId, item, ActiveProfile.DiscardNewByVault,
+                ActiveProfile.ConfiguredItems, SelectedItems);
             var disposition = item.Id == CleanupPolicy.DeepMapId ? "深層地圖固定保留" :
                 !CleanupPolicy.CanSelect(item) ? "不可丟棄，保留" :
                 applied ? (SelectedItems.Contains(item.Id) ? "依本庫預設加入全域丟棄" : "依本庫預設保留") :
@@ -246,7 +333,7 @@ public sealed class Plugin : IDalamudPlugin
     internal void SetHighQuality(bool value)
     {
         SetArmed(false);
-        Config.IncludeHighQuality = value;
+        ActiveProfile.IncludeHighQuality = value;
         SaveConfig();
         Slots = [];
         Status = "HQ 設定已儲存，自動丟棄已停止。";
@@ -258,7 +345,7 @@ public sealed class Plugin : IDalamudPlugin
         if (tracker.Pending is not null) { Status = "上一筆丟棄請求尚未完成，請稍候。"; return; }
         if (!Client.IsLoggedIn || !Player.IsLoaded || Objects.LocalPlayer is null) { Status = "登入角色後才能啟動。"; return; }
         if (SelectedItems.Count == 0 && !DiscoverySelectionPolicy.CanAwaitDiscovery(Catalog.Vaults,
-            Config.AutoDiscoverLoot, Config.DiscardNewByVault)) { Status = "尚未勾選可丟棄物品，也未設定新補錄自動丟棄。"; return; }
+            Config.AutoDiscoverLoot, ActiveProfile.DiscardNewByVault)) { Status = "尚未勾選可丟棄物品，也未設定新補錄自動丟棄。"; return; }
         tracker.Reset();
         armedCharacter = Player.ContentId;
         Armed = true;
@@ -304,7 +391,7 @@ public sealed class Plugin : IDalamudPlugin
                 var melded = false;
                 if (!looseMateria)
                     for (var m = 0; m < 5; m++) melded |= item->Materia[m] != 0;
-                var protection = SlotProtection.Evaluate(item->IsSymbolic, (byte)item->Flags, Config.IncludeHighQuality, looseMateria,
+                var protection = SlotProtection.Evaluate(item->IsSymbolic, (byte)item->Flags, ActiveProfile.IncludeHighQuality, looseMateria,
                     looseMateria ? (ushort)0 : item->SpiritbondOrCollectability, looseMateria ? 0u : item->GlamourId,
                     !looseMateria && (item->Stains[0] != 0 || item->Stains[1] != 0), melded);
                 slots.Add(new(bag, index, item->ItemId, item->Quantity, protection != DiscardBlockReason.None, protection, (byte)item->Flags));
@@ -328,6 +415,7 @@ public sealed class Plugin : IDalamudPlugin
     private unsafe void Update(IFramework _)
     {
         if (disposed) return;
+        SyncCharacterProfile();
         Maps.Update();
         Discovery.Update();
         FlushConfig();

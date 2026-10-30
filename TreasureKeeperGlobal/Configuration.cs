@@ -6,7 +6,9 @@ namespace TreasureKeeperGlobal;
 [Serializable]
 public sealed class Configuration : IPluginConfiguration
 {
-    public int Version { get; set; } = 4;
+    public int Version { get; set; } = 5;
+    public DiscardProfiles Profiles { get; set; } = new();
+    // Legacy fields are read only when migrating to the first profile.
     public HashSet<uint>? DiscardItems { get; set; }
     // Read old configurations once; current selections are global item IDs.
     public Dictionary<uint, HashSet<uint>> DiscardByVault { get; set; } = [];
