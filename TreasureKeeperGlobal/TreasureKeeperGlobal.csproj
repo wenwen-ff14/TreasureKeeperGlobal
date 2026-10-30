@@ -7,7 +7,7 @@
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <DalamudLibPath Condition="'$(DALAMUD_HOME)' == ''">$(MSBuildProjectDirectory)/../.sdk/</DalamudLibPath>
     <AssemblySearchPaths>$(DalamudLibPath);{CandidateAssemblyFiles};{HintPathFromItem};{TargetFrameworkDirectory};{RawFileName}</AssemblySearchPaths>
-    <Version>0.1.10</Version>
+    <Version>0.1.11</Version>
     <Authors>TreasureKeeperGlobal contributors</Authors>
     <Description>各寶物庫獨立物品清單、分類與自動丟棄，固定保留深層地圖。</Description>
     <PackageLicenseExpression>AGPL-3.0-or-later</PackageLicenseExpression>
