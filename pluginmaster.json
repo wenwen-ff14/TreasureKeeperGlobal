@@ -3,8 +3,8 @@
     "Author": "TreasureKeeperGlobal contributors",
     "Name": "TreasureKeeperGlobal｜寶物庫整理助手",
     "InternalName": "TreasureKeeperGlobal",
-    "AssemblyVersion": "0.1.10.0",
-    "Description": "按寶物庫及 G10 外場瀏覽掉落，支援分類、搜尋、一鍵勾選與手動補充。所有清單的相同物品共用全域勾選，深層傳送魔紋的地圖固定保留。\n輸入 /tkeepglobal 開啟。自動補錄預設啟用，將庫內新取得物品加入對應清單並保留紀錄；各庫可選擇新補錄預設保留或自動丟棄，也可逐項調整；既有物品沿用全域設定。一般野外不自動歸入 G10 外場。\n啟動自動丟棄後，不論主城、野外或副本，都會處理一般背包所有已勾選物品的整疊數量，包含既有物品；勾選修改立即生效。登入或重新載入後需手動啟動。物品來源中的舊版實測項目另有標示。\n輸入 /tmapglobal 開啟地圖工具，可把本機寶圖放入一般／十字快捷欄空格。按快捷鍵解讀並自動確認本次地圖；已有解讀中的寶圖時停止。地圖功能獨立於丟棄開關。",
+    "AssemblyVersion": "0.1.11.0",
+    "Description": "新增獨立丟棄設定集，可複製、重新命名、下拉切換及選用角色綁定；各組分別保存丟棄／保留、HQ 與新補錄預設，舊設定自動移入預設設定集。切換後需手動啟動。物品清單新增圖示及已有的中文名稱，支援中文搜尋。\n\n按寶物庫及 G10 外場瀏覽掉落，支援分類、搜尋、一鍵勾選與手動補充。所有清單的相同物品共用全域勾選，深層傳送魔紋的地圖固定保留。\n輸入 /tkeepglobal 開啟。自動補錄預設啟用，將庫內新取得物品加入對應清單並保留紀錄；各庫可選擇新補錄預設保留或自動丟棄，也可逐項調整；既有物品沿用全域設定。一般野外不自動歸入 G10 外場。\n啟動自動丟棄後，不論主城、野外或副本，都會處理一般背包所有已勾選物品的整疊數量，包含既有物品；勾選修改立即生效。登入或重新載入後需手動啟動。物品來源中的舊版實測項目另有標示。\n輸入 /tmapglobal 開啟地圖工具，可把本機寶圖放入一般／十字快捷欄空格。按快捷鍵解讀並自動確認本次地圖；已有解讀中的寶圖時停止。地圖功能獨立於丟棄開關。",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/wenwen-ff14/TreasureKeeperGlobal",
     "Tags": [
@@ -18,14 +18,14 @@
     "LoadSync": false,
     "CanUnloadAsync": false,
     "LoadPriority": 0,
-    "Punchline": "自動補錄寶物庫所得、全域勾選丟棄、寶圖快捷解讀與自動確認。",
+    "Punchline": "多設定集丟棄／保留、道具圖示與中文辨識、寶圖快捷解讀。",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/wenwen-ff14/TreasureKeeperGlobal/releases/download/v0.1.10/TreasureKeeperGlobal-0.1.10.0-api15.zip",
-    "DownloadLinkUpdate": "https://github.com/wenwen-ff14/TreasureKeeperGlobal/releases/download/v0.1.10/TreasureKeeperGlobal-0.1.10.0-api15.zip",
-    "DownloadLinkTesting": "https://github.com/wenwen-ff14/TreasureKeeperGlobal/releases/download/v0.1.10/TreasureKeeperGlobal-0.1.10.0-api15.zip",
+    "DownloadLinkInstall": "https://github.com/wenwen-ff14/TreasureKeeperGlobal/releases/download/v0.1.11/TreasureKeeperGlobal-0.1.11.0-api15.zip",
+    "DownloadLinkUpdate": "https://github.com/wenwen-ff14/TreasureKeeperGlobal/releases/download/v0.1.11/TreasureKeeperGlobal-0.1.11.0-api15.zip",
+    "DownloadLinkTesting": "https://github.com/wenwen-ff14/TreasureKeeperGlobal/releases/download/v0.1.11/TreasureKeeperGlobal-0.1.11.0-api15.zip",
     "IsHide": false,
     "IsTestingExclusive": false,
-    "LastUpdate": 1793298561,
-    "Changelog": "修正 /tmap 指令已被其他插件註冊時無法載入的問題。國際服版改用 /tkeepglobal 與 /tmapglobal；原有設定保留。"
+    "LastUpdate": 1793347337,
+    "Changelog": "新增獨立丟棄設定集，可複製、重新命名、下拉切換及選用角色綁定；各組分別保存丟棄／保留、HQ 與新補錄預設，舊設定自動移入預設設定集。切換後需手動啟動。物品清單新增圖示及已有的中文名稱，支援中文搜尋。"
   }
 ]
